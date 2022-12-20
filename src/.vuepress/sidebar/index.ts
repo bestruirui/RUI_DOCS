@@ -5,11 +5,7 @@ export const zhSidebar = sidebar({
 
   "/": "structure",
 
- // "/Learn/": "structure",
-
   "/Life/": "structure",
-
-
 
   "/Learn/": [
     "",

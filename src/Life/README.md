@@ -4,7 +4,7 @@ icon: home
 title: 生活
 index: false
 heroImage: /logo.svg
-heroText: 小瑞的知识库 · 生活
+heroText: 知识库 · 生活
 tagline: 
 actions:
   - text: 开始   💡

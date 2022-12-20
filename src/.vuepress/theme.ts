@@ -24,6 +24,8 @@ export default hopeTheme({
 
   hideSiteNameOnMobile: false,
 
+  contributors:false,
+
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   sidebarSorter:["readme"],
