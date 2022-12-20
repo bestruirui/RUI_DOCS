@@ -1,6 +1,6 @@
 ---
 title: Linux
-icon: cumputer
+icon: server
 index: false
 order: -1
 ---

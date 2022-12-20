@@ -3,7 +3,50 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
 
 
-  "/": "structure",
+  "/": 
+  [
+    {
+      text: "RUI",
+      link: "/README.md",
+      icon: "home",
+    },
+    {
+      text: "学习",
+      icon: "book",
+      collapsible: true,
+      prefix: "Learn/",
+      children: [
+          {
+            icon: "robot",
+            text: "RM",
+            prefix: "RM/",
+            collapsible: true,
+            children: "structure",
+          },
+          {
+            icon: "server",
+            text: "Linux",
+            prefix: "Linux/",
+            collapsible: true,
+            children: "structure",
+          },
+          {
+            icon: "box-archive",
+            text: "Docker",
+            prefix: "Docker/",
+            collapsible: true,
+            children: "structure",
+          },
+        ],
+    },
+    {
+      text: "生活",
+      icon: "ice-cream",
+      prefix: "Life/",
+      collapsible: true,
+      children: "structure",
+    }
+  ],
 
   "/Life/": "structure",
 
@@ -17,7 +60,7 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
-      icon: "cumputer",
+      icon: "server",
       text: "Linux",
       prefix: "Linux/",
       collapsible: true,

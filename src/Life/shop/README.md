@@ -1,6 +1,6 @@
 ---
 title: 购物
-icon: creative
+icon: cart-shopping
 index: false
 ---
 

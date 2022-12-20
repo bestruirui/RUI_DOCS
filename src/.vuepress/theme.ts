@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "http://bestrui.top",
   },
 
-  iconAssets: "fontawesome",
+  iconAssets: "fontawesome" ,
 
   //logo: "/logo.svg",
 

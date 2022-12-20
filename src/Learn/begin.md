@@ -1,6 +1,6 @@
 ---
 title: 目录
-icon: creative
+icon: folder-tree
 index: false
 ---
 
