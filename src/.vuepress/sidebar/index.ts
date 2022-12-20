@@ -10,21 +10,21 @@ export const zhSidebar = sidebar({
   "/Learn/": [
     "",
     {
-      icon: "discover",
+      icon: "robot",
       text: "RM",
       prefix: "RM/",
       collapsible: true,
       children: "structure",
     },
     {
-      icon: "discover",
+      icon: "cumputer",
       text: "Linux",
       prefix: "Linux/",
       collapsible: true,
       children: "structure",
     },
     {
-      icon: "discover",
+      icon: "box-archive",
       text: "Docker",
       prefix: "Docker/",
       collapsible: true,

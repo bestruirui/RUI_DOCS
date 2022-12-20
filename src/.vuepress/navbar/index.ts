@@ -4,12 +4,12 @@ export const zhNavbar = navbar([
   "/",
   { 
     text: "学习", 
-    icon: "discover", 
+    icon: "book", 
     link: "/Learn/" 
   },
   { 
     text: "生活", 
-    icon: "discover", 
+    icon: "ice-cream", 
     link: "/Life/" 
   },
   // {
