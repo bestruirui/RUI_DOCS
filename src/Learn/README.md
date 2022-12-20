@@ -1,6 +1,6 @@
 ---
 home: true
-icon: home
+icon: book
 title: 学习
 index: false
 heroImage: /logo.svg

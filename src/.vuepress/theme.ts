@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "http://bestrui.top",
   },
 
-  iconAssets: "iconfont",
+  iconAssets: "fontawesome",
 
   //logo: "/logo.svg",
 
@@ -94,7 +94,10 @@ export default hopeTheme({
        * Using Waline
        */
       provider: "Waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      serverURL: "https://rui_waline.deta.dev",
+      meta:['nick', 'mail'],
+      requiredMeta:['nick', 'mail'],
+      //reaction:true,
     },
 
     // Disable features you don’t want here

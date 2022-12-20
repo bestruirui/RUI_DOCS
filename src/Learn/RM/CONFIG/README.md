@@ -1,6 +1,6 @@
 ---
 title: 基础配置
-icon: config
+icon: gear
 index: false
 ---
 

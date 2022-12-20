@@ -1,6 +1,6 @@
 ---
 title: openwrt
-icon: layout
+icon: router
 index: false
 ---
 

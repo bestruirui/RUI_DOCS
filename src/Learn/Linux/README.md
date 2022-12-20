@@ -1,6 +1,6 @@
 ---
 title: Linux
-icon: creative
+icon: server
 index: false
 order: -1
 ---

@@ -1,6 +1,6 @@
 ---
 title: 遇到的问题
-icon: layout
+icon: bug
 index: false
 ---
 

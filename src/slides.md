@@ -3,6 +3,7 @@ title: 幻灯片
 icon: slides
 layout: Slide
 order: -1
+index: false
 ---
 
 <!-- markdownlint-disable MD024 MD033 MD051 -->

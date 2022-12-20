@@ -1,7 +1,6 @@
 ---
-
 title: Docker
-icon: creative
+icon: box-archive
 index: false
 ---
 

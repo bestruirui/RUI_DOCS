@@ -1,6 +1,6 @@
 ---
 title: RM
-icon: layout
+icon: robot
 index: false
 order: 1
 ---
