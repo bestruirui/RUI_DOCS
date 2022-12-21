@@ -1,6 +1,6 @@
 ---
 title: 测试文章 
-icon: config
+icon: paper-plane
 ---
 
 You can disable some function and layout on the page by setting the Frontmatter of the page.

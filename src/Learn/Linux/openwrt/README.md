@@ -1,6 +1,6 @@
 ---
 title: openwrt
-icon: route
+icon: wifi
 index: false
 ---
 

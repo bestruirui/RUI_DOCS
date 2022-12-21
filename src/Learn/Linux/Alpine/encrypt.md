@@ -1,5 +1,5 @@
 ---
-icon: lock
+icon: paper-plane
 title: 测试文章 
 ---
 
