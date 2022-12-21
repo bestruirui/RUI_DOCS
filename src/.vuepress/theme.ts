@@ -30,6 +30,8 @@ export default hopeTheme({
 
   sidebarSorter:["readme"],
 
+  headerDepth:0,
+
   navbarLayout: {
     left: ["Brand"],
     center: ["Links"],
