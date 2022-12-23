@@ -18,6 +18,7 @@ export default defineUserConfig({
   theme,
 
   shouldPrefetch: false,
+  
 
  
 
@@ -33,6 +34,8 @@ export default defineUserConfig({
     mdEnhancePlugin({
       container: true,
       presentation: true,
+      codetabs: true,
+      tabs: true,
     }),
   ],
 });

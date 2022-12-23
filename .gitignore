@@ -2,3 +2,4 @@
 /src/.vuepress/.cache/
 /src/.vuepress/.temp/
 /src/.vuepress/dist/
+/src/markdown-override.css
