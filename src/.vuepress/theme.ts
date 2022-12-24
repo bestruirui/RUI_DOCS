@@ -111,6 +111,10 @@ export default hopeTheme({
       //reaction:true,
     },
 
+    photoSwipe: true,
+
+
+
     // Disable features you don’t want here
     mdEnhance: {
       align: true,
@@ -129,6 +133,8 @@ export default hopeTheme({
       katex: true,
       mark: true,
       mermaid: true,
+      tabs: true,
+      imageMark: true,
       playground: {
         presets: ["ts", "vue"],
       },
@@ -150,9 +156,9 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
       vPre: true,
       vuePlayground: true,
+      //container
     },
 
     //uncomment these if you want a pwa
@@ -161,6 +167,7 @@ export default hopeTheme({
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
+      showInstall: true,
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
         statusBarColor: "black",

@@ -49,6 +49,7 @@ export const zhSidebar = sidebar({
   ],
 
   "/Life/": "structure",
+  "/img/":"structure",
 
   "/Learn/": [
     "",
