@@ -29,8 +29,11 @@ jobs:
       - name: 安装依赖
         run: npm ci 
       
-      - name: 安装依赖
-        run: rm -rf node_modules/vuepress-plugin-md-enhance/lib/* & mv md-enhance/lib/* node_modules/vuepress-plugin-md-enhance/lib/
+      - name: 删除md-enhance
+        run: rm -rf node_modules/vuepress-plugin-md-enhance/lib/* 
+
+      - name: 替换md-enhance
+        run:  mv md-enhance/lib/* node_modules/vuepress-plugin-md-enhance/lib/  
       
       - name: 构建文档
         env:
