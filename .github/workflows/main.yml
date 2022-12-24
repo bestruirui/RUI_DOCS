@@ -30,7 +30,7 @@ jobs:
         run: npm ci 
       
       - name: 安装依赖
-        run: rm -rf node_modules/vuepress-plugin-md-enhance/lib/* & mv md-enhance/lib/* node_modules/vuepress-plugin-md-enhance/lib/*
+        run: rm -rf node_modules/vuepress-plugin-md-enhance/lib/* & mv md-enhance/lib/* node_modules/vuepress-plugin-md-enhance/lib/
       
       - name: 构建文档
         env:
