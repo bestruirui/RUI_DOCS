@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { pwaPlugin } from "vuepress-plugin-pwa2";
 import { searchPlugin } from '@vuepress/plugin-search'
-import { mdEnhancePlugin } from "rui-plugin-md-enhance";
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import { lightgalleryPlugin } from "vuepress-plugin-lightgallery";
 
 
