@@ -8,7 +8,7 @@ export const zhSidebar = sidebar({
     {
       text: "RUI",
       link: "/README.md",
-      icon: "home",
+      icon: "house",
     },
     {
       text: "学习",
@@ -31,7 +31,7 @@ export const zhSidebar = sidebar({
             children: "structure",
           },
           {
-            icon: "box-archive",
+            icon: "docker",
             text: "Docker",
             prefix: "Docker/",
             collapsible: true,
@@ -67,7 +67,7 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
-      icon: "box-archive",
+      icon: "docker",
       text: "Docker",
       prefix: "Docker/",
       collapsible: true,

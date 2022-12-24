@@ -1,6 +1,6 @@
 ---
 title: 幻灯片
-icon: slides
+icon: presentation-screen
 layout: Slide
 order: -1
 index: false

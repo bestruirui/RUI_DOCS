@@ -1,6 +1,6 @@
 ---
 home: true
-icon: home
+icon: house
 title: RUI
 heroImage: /logo.svg
 heroText: 小瑞的知识库

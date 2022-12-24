@@ -1,6 +1,6 @@
 ---
 title: Docker
-icon: box-archive
+icon: docker
 index: false
 ---
 

@@ -10,7 +10,9 @@ export default hopeTheme({
     url: "http://bestrui.top",
   },
 
-  iconAssets: "fontawesome" ,
+  iconAssets: "//at.alicdn.com/t/c/font_3837767_ns93kih665.css" ,
+
+  
 
   //logo: "/logo.svg",
 
@@ -25,6 +27,8 @@ export default hopeTheme({
   hideSiteNameOnMobile: false,
 
   contributors:false,
+
+  
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
