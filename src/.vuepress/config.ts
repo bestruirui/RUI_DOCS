@@ -3,7 +3,8 @@ import theme from "./theme.js";
 import { pwaPlugin } from "vuepress-plugin-pwa2";
 import { searchPlugin } from '@vuepress/plugin-search'
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
-import { photoSwipePlugin } from "vuepress-plugin-photo-swipe";
+import { lightgalleryPlugin } from "vuepress-plugin-lightgallery";
+
 
 export default defineUserConfig({
   base: "/",
@@ -38,10 +39,13 @@ export default defineUserConfig({
       codetabs: true,
       tabs: true,
       figure: true,
+      imageLazyload: true,
+        // 启用图片标记
+        imageMark: true,
+        // 启用图片大小
+        imageSize: true,
     }),
-    photoSwipePlugin({
-      // 你的选项
-    }),
+    lightgalleryPlugin(),
   ],
 });
 
