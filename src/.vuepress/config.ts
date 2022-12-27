@@ -1,7 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchPlugin } from '@vuepress/plugin-search'
-import { containerPlugin } from '@vuepress/plugin-container'
 
 
 export default defineUserConfig({
@@ -19,8 +18,6 @@ export default defineUserConfig({
 
   shouldPrefetch: false,
   
-  
- 
 
 
   plugins: [

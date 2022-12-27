@@ -158,7 +158,6 @@ export default hopeTheme({
       sup: true,
       vPre: true,
       vuePlayground: true,
-      //container
     },
 
     //uncomment these if you want a pwa
@@ -168,6 +167,7 @@ export default hopeTheme({
       cachePic: true,
       appendBase: true,
       showInstall: true,
+      maxSize:6048,
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
         statusBarColor: "black",

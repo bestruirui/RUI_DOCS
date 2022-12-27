@@ -9,3 +9,7 @@ header.hero {
  body {
     background: url(/bg.svg) center/cover no-repeat;
  }
+ .theme-hope-content img {
+    max-width: 100%;
+    border-radius: 11px;
+}
