@@ -10,9 +10,6 @@ actions:
   - text: 开始   ⭐
     link: begin
     type: primary
-
-  
-
 copyright: false
 ---
 
