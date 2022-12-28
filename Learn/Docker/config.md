@@ -24,7 +24,7 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```` tip  网络类型
 - bridge
 - host
-- macvlan   &emsp;    #[创建macvlan网络](config.md#macvlan网络)
+- macvlan   &emsp;    //创建macvlan网络在[这里](config.md#macvlan网络)
 ````
 - `-v /docker:/app` : 绑定目录，`主机(宿主)目录:容器目录` 
 - `-e TZ=Asia/Shanghai` : 环境变量：时区
@@ -32,9 +32,9 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 
 ## 启动命令
 ```docker
-docker start     //普通的启动命令
-docker start -i  //启动并进入交互
-docker start -a  //在前端显示日志
+docker start     name //普通的启动命令
+docker start -i  name //启动并进入交互
+docker start -a  name //在前端显示日志
 ```
 
 ## 构建容器
