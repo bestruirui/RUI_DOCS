@@ -15,6 +15,6 @@ index: false
 
 ## [生活](/Life/README.md)
 
-- #### .....
+- #### ......
 
 
