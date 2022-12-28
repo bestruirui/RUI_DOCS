@@ -32,3 +32,12 @@ docker run -d \
     registry.hub.docker.com/p3terx/aria2-pro
 ```
 ## 青龙面板
+```Docker
+docker run -dit \
+    -v /docker/ql:/ql/data \
+    -p 5700:5700 \
+    --name="ql" \
+    --dns 111.11.1.1 \
+    --restart unless-stopped \
+    whyour/qinglong:latest
+```
