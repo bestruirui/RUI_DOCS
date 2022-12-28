@@ -32,6 +32,7 @@ docker run -d \
     registry.hub.docker.com/p3terx/aria2-pro
 ```
 ## 青龙面板
+定时任务面板
 ```Docker
 docker run -dit \
     -v /docker/ql:/ql/data \
