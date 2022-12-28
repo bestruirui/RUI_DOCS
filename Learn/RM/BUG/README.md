@@ -18,7 +18,7 @@ index: false
 
 - [Home Page](home.md)
 
-- [Slides](test.md)
+- [Slides](Learn/RM/BUG/test.md)
 
 - Switch animation
 
