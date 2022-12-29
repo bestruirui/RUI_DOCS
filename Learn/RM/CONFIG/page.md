@@ -5,10 +5,15 @@ title: 页面配置
 icon: page
 # 这是侧边栏的顺序
 order: 1
-# 设置作者
-author: RUI
 # 设置写作时间
 date: 2022-12-21
+# 分类
+category:
+  - Markdown
+# 标签
+tag:
+  - Markdown
+  - 容器
 ---
 
 `more` 注释之前的内容被视为文章摘要。
