@@ -1,5 +1,5 @@
 ---
-title: 其他
+title: CloudFlare
 icon: cloudflare
 index: false
 ---
