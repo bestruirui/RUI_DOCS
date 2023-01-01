@@ -1,8 +1,8 @@
 ---
 # 这是文章的标题
-title: CloudFlare
+title: 反向代理
 # 这是页面的图标
-icon: cloudflare
+icon: network-wired
 # 设置写作时间
 date: 2023-01-01
 ---
