@@ -1,5 +1,5 @@
 ---
 title: 其他
-icon: server
+icon: ellipsis
 index: false
 ---
