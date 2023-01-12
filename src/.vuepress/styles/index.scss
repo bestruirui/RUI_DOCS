@@ -25,9 +25,9 @@ header.hero {
     border-left: none;
 }
 .sidebar-link.active {
-    border-left-color: unset;
+    border-left-color: #ffffff;
     border-radius: 7px;
-    width: 94%;
+    width: 96%;
 }
 //顶栏模糊
 .navbar {
@@ -118,4 +118,10 @@ div[class*=language-] {
 .custom-container.danger {
     border-color: rgb(225 50 56 / 60%);
     background: rgb(255 235 236 / 60%);
+}
+//引用
+blockquote {
+    background: rgb(255 255 255 / 40%);
+    border-radius: 5px;
+    backdrop-filter: blur( 30px ) !important;
 }
