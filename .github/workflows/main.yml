@@ -15,12 +15,15 @@ jobs:
           # 如果你文档需要 Git 子模块，取消注释下一行
           submodules: true
           
-      - name: 切换到SRC分支
-        run: git checkout SRC
       
-      - name: 克隆文档
-        run: git clone https://github.com/bestruirui/RUI_KNOWLEDGE.git
+      - name: 拉取SRC分支
+        run: git clone -b SRC https://github.com/bestruirui/RUI_KNOWLEDGE.git BSRC
+      
+      - name: 移动文档
+        run: mv * BSRC/src 
         
+      - name: 移动文档
+        run: mv BSRC/* ..
         
       - name: 设置 Node.js
         uses: actions/setup-node@v3
@@ -28,8 +31,7 @@ jobs:
           node-version: 18
           cache: npm
           
-      - name: 移动文档
-        run: mv RUI_KNOWLEDGE/* src/
+      
       
       - name: 构建文档
         env:
