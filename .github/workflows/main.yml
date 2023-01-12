@@ -43,6 +43,6 @@ jobs:
         with:
           # 这是文档部署到的分支名称
           repository-name: bestruirui/RUI_DOCS_PAGE
-          token: ${{secrets.<RUI_TOKEN>}}
+          token: ${{secrets.RUI_TOKEN}}
           branch: main
           folder: src/.vuepress/dist
