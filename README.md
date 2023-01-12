@@ -17,7 +17,7 @@ copyright: false
 head:
   - - meta
     - name: 小瑞的知识库
-      content: 这里记录了我学习生活中遇到的各种各样的问题，和解决方法
+      content: 这里记录了我学习生活中遇到的各种各样的问题和解决方法
 ---
 
 
