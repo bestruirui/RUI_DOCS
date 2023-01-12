@@ -11,7 +11,7 @@ jobs:
     steps:
     
       - name: 设置时区
-      - uses: szenius/set-timezone@v1.1
+        uses: szenius/set-timezone@v1.1
         with:
            timezoneLinux: "Asia/Shanghai"
            
