@@ -9,10 +9,12 @@ jobs:
     name: 部署页面
     runs-on: ubuntu-latest
     steps:
+    
       - name: 设置时区
       - uses: szenius/set-timezone@v1.1
         with:
            timezoneLinux: "Asia/Shanghai"
+           
            
       - name: Checkout
         uses: actions/checkout@v3
@@ -20,6 +22,7 @@ jobs:
           fetch-depth: 0
           # 如果你文档需要 Git 子模块，取消注释下一行
           submodules: true
+
                 
       - name: 拉取MOD
         run: git clone https://github.com/bestruirui/RUI_DOCS_NODE_MOD.git
