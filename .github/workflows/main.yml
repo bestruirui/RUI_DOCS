@@ -9,6 +9,11 @@ jobs:
     name: 部署页面
     runs-on: ubuntu-latest
     steps:
+      - name: 设置时区
+      - uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Asia/Shanghai"
+          
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -38,10 +43,7 @@ jobs:
           npm run build
           > src/.vuepress/dist/.nojekyll
          
-      - name: 设置时区
-      - uses: szenius/set-timezone@v1.0
-        with:
-          timezoneLinux: "Asia/Shanghai"
+     
           
       - name: 获取时间
         id: date
