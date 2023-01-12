@@ -12,9 +12,9 @@ export default hopeTheme({
 
   iconAssets: "//at.alicdn.com/t/c/font_3837767_y97x5fze2j.css" ,
 
-  repo: "bestruirui/RUI_KNOWLEDGE",
+  repo: "bestruirui/RUI_DOCS",
 
-  docsDir: "/",
+  docsDir: "/src",
 
   docsBranch:"DOC",
 
