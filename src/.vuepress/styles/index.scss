@@ -24,7 +24,11 @@ header.hero {
     padding-bottom: .25rem;
     border-left: none;
 }
-
+.sidebar-link.active {
+    border-left-color: unset;
+    border-radius: 7px;
+    width: 94%;
+}
 //顶栏模糊
 .navbar {
     backdrop-filter: blur( 30px ) !important;
