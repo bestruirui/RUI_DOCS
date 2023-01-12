@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 设置时区
-      - uses: szenius/set-timezone@v1.0
+      - uses: szenius/set-timezone@v1.1
         with:
-          timezoneLinux: "Asia/Shanghai"
-          
+           timezoneLinux: "Asia/Shanghai"
+           
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -42,9 +42,7 @@ jobs:
         run: |-
           npm run build
           > src/.vuepress/dist/.nojekyll
-         
-     
-          
+  
       - name: 获取时间
         id: date
         run: echo "::set-output name=today::$(date +'%Y-%m-%d-%H:%M')"
