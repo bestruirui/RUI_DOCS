@@ -1,6 +1,6 @@
 ---
 title: Vue
-icon: Vuejs
+icon: vuejs
 index: false
 order: 1
 ---
