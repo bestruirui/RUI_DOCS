@@ -89,6 +89,13 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
+      icon: "browser",
+      text: "WEB",
+      prefix: "WEB/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
       icon: "ellipsis",
       text: "Other",
       prefix: "Other/",
