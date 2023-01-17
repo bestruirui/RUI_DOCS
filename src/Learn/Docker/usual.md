@@ -75,9 +75,40 @@ docker run -it --name code-server -p 5566:8080 \
        --restart=always \
       registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
 ```
-
-
-
+## V2raya
+带有webui的V2ray管理程序，可作为透明网关
+```docker
+docker run -d \
+  --restart=always \
+  --privileged \
+  --network=OP \
+  --name v2raya \
+  --ip 192.168.31.23 \
+  -e V2RAYA_ADDRESS=0.0.0.0:4022 \
+   -v /docer/v2raya:/etc/v2raya \
+  mzz2017/v2raya
+```
+## rclone
+webui版
+```docker
+docker run -it \
+   --name rclone   \
+   -v /docker/rclone/config:/config/rclone \
+   -v /docker:/upload \
+   -v /docker/rclone/cache:/root/.cache \
+   -p 5572:5572
+   rclone/rclone:latest  rcd --rc-web-gui --rc-addr=0.0.0.0:5572  --rc-user=admin --rc-pass=1004
+```
+## ddns-go
+ddns
+```docker
+docker run -d \
+   --name ddns-go \
+   --restart=always \
+   --net=host \
+   -v /opt/ddns-go:/root \
+    jeessy/ddns-go
+```
 
 
 
