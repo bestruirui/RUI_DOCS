@@ -8,6 +8,7 @@ order: 1
 ---
 
 ![mail](email.jpg "预览")
+
 ```html
 <!DOCTYPE html>
 
