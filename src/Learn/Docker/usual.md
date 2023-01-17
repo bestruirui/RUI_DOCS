@@ -43,7 +43,38 @@ docker run -dit \
     whyour/qinglong:latest
 ```
 ## Alist
-
+网盘目录列表程序
+```docker
+docker run -d \
+     --restart=always \
+     -v /doetclist:/opt/alist/data \
+     -p 5244:5244 \
+     --name="alist" \
+     xhofe/alist:latest
+```
+## code-server
+web版vscode
+```docker
+docker run -it --name code-server -p 5566:8080 \
+  -v /docker/code/config:/home/coder/.config \
+  -v /docker/code/home:/home/coder/project \
+  codercom/code-server:latest
+```
+## 甜糖心愿
+搞钱的
+```docker
+  docker run -d \
+      -v /ttnode:/mnt/data/ttnode \
+      -v /var/run/docker.sock:/var/run/docker.sock \
+      -v /proc:/host/proc:ro \
+      --name ttnode \
+      --hostname ttnode \
+      --privileged \
+      --net=host \
+      --dns=111.11.1.1 \
+       --restart=always \
+      registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
+```
 
 
 

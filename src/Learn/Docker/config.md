@@ -49,3 +49,18 @@ docker network create -d \
        --gateway=192.168.31.1 \
        --ipv6 --subnet=2409:8a04:6612:cf40::/64
 ```
+## 清理日志
+```shell
+#!/bin/sh
+echo  "========开始清理容器日志 $(date +%Y-%m-%d\ %H:%M:%S)========"  
+  
+logs=$(find /var/lib/docker/containers/ -name *-json.log)  
+  
+for log in $logs  
+        do  
+                echo "清理了: $log"  
+                cat /dev/null > $log  
+        done  
+
+echo "========清理完成 $(date +%Y-%m-%d\ %H:%M:%S)========" 
+```
