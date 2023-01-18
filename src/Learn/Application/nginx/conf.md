@@ -9,13 +9,13 @@ icon: gear
 #### HTTPS
 ```nginx
 server {
-    listen                  443 ssl http2;
+    listen                       443 ssl http2;
     listen                  [::]:443 ssl http2;
     server_name             bestrui.top;
 
     # SSL
-    ssl_certificate         /nginx/ssl/jd.bestrui.top_nginx/jd.bestrui.top_bundle.crt;
-    ssl_certificate_key     /nginx/ssl/jd.bestrui.top_nginx/jd.bestrui.top.key;
+    ssl_certificate         /nginx/ssl/jd.bestrui.top_nginx/bestrui.top_bundle.crt;
+    ssl_certificate_key     /nginx/ssl/jd.bestrui.top_nginx/bestrui.top.key;
     ssl_session_timeout 5m;
     ssl_protocols TLSv1.2 TLSv1.3;
     ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:HIGH:!aNULL:!MD5:!RC4:!DHE; 
@@ -42,11 +42,11 @@ server {
 #### HTTP
 ```nginx
 server{
-        listen [::]:80;
-        listen 0.0.0.0:80;
-        server_name bestrui.top;
+        listen            [::]:80;
+        listen         0.0.0.0:80;
+        server_name    bestrui.top;
         location = / {
-          proxy_pass         http://192.168.31.3:3001;
+          proxy_pass      http://192.168.31.3:3001;
         }
 }
 ```
