@@ -45,8 +45,15 @@ export const zhSidebar = sidebar({
             children: "structure",
           },
           {
+            icon: "store",
+            text: "常用软件",
+            prefix: "Application/",
+            collapsible: true,
+            children: "structure",
+          },
+          {
             icon: "ellipsis",
-            text: "Other",
+            text: "其他",
             prefix: "Other/",
             collapsible: true,
             children: "structure",
@@ -96,8 +103,15 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
+      icon: "store",
+      text: "常用软件",
+      prefix: "Application/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
       icon: "ellipsis",
-      text: "Other",
+      text: "其他",
       prefix: "Other/",
       collapsible: true,
       children: "structure",
