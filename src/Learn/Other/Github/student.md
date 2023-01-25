@@ -27,8 +27,9 @@ date: 2023-01-25
 7. 邮箱随意，学校填自己的，如何使用Github可以参考我的
 >I hope to get the student certification of Github, because your organization's certification is more authoritative, which is convenient for other development certification. At the same time, I also want to learn more project knowledge on github and use it. I can also upload my code to the library for sharing. The main purpose is to learn and use this student certification. I hope github will give certification. Thank you.
 8. 上传你准备好的材料，这里直接把刚才截图的照片拖过去就行
-9. Select proof type 选Dated school ID
 ````tip
 这里图片上传不过去可以把`github-education-web.s3.amazonaws.com`这个域名代理，注意，是只代理这一个域名！
 ````
+9. Select proof type 选Dated school ID
 10. 提交
+
