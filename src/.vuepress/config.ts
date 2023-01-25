@@ -12,7 +12,7 @@ export default defineUserConfig({
       title: "RUI",
       description: " ",
       head:[
-        ['script', {type: "text/javascript", src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "231c610ae53045b8bd4774aaac7eeb96"}' }]
+        ['script', {type: "text/javascript", src: './baidu.js' ,async:"async"}]
       ] 
       
     },
