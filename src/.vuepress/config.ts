@@ -3,7 +3,6 @@ import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
 
-
 export default defineUserConfig({
   base: "/",
 
@@ -12,6 +11,10 @@ export default defineUserConfig({
       lang: "zh-CN",
       title: "RUI",
       description: " ",
+      head:[
+        ['script', {type: "text/javascript", src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "231c610ae53045b8bd4774aaac7eeb96"}' }]
+      ] 
+      
     },
   },
 
