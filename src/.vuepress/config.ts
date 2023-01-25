@@ -5,14 +5,14 @@ import { copyCodePlugin } from "vuepress-plugin-copy-code2";
 
 export default defineUserConfig({
   base: "/",
-
   locales: {
     "/": {
       lang: "zh-CN",
       title: "RUI",
       description: " ",
       head:[
-        ['script', {type: "text/javascript", src: './baidu.js' ,async:"async"}]
+        ['script', {type: "text/javascript", src: './baidu.js' ,async:"async"}],
+        ['meta', {name: "msvalidate.01", content: "76861DC58C528BF36815B521CAC12C86"}]
       ] 
       
     },
