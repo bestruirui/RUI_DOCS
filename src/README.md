@@ -10,8 +10,8 @@ actions:
     link: begin
     type: primary
 
-  - text: 文档
-    link: /guide/
+  - text: 主页
+    link: https://bestrui.top
 
 copyright: false
 head:
