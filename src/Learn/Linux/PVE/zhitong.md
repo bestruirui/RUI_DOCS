@@ -13,10 +13,12 @@ icon: page
 开启CSM
 CSM选项中的项目都选为legacy
 ## PVE设置
+#### 启动内核IOMMU支持
 修改` /etc/default/grub`中的`GRUB_CMDLINE_LINUX_DEFAULT`为：
 ```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on i915.enable_gvt=1 iommu=pt video=efifb:off video=vesafb:off"
 ```
+#### 加载硬件直通相关模块
 修改`/etc/modules`，添加以下内容
 ```
 vfio
@@ -33,13 +35,14 @@ blacklist snd_hda_codec
 blacklist snd_hda_core
 blacklist i915
 ```
+#### 更新配置信息
 执行以下命令
 ```
 update-grub
 update-initramfs -u -k all
 reboot
 ```
-绑定核显到vfio模块
+#### 绑定核显到vfio模块
 查看核显以及声卡的ID：
 ![[./Pasted image 20230202171821.png]]
 ![[./Pasted image 20230202172010.png]]
