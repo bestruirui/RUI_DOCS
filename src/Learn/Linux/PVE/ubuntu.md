@@ -44,14 +44,14 @@ reboot
 ```
 #### 绑定核显到vfio模块
 查看核显以及声卡的ID：
-![sca](./image20230202171821.png)
-![[./Pasted image 20230202172010.png]]
+![](202302021755.png)
+![](202302021756.png)
 根据ID修改下面的命令
 ```
 echo "options vfio-pci ids=8086:3185,8086:3198" > /etc/modprobe.d/vfio.conf
 ```
 #### 创建虚拟机
-![[Pasted image 20230202173856.png]]
+![](202302021756-1.png)
 #### 修改配置文件
 修改`/etc/pve/nodes/bestrui/qemu-server/100.conf`将100改为VM ID
 我的配置文件，主要是第一行和第二行

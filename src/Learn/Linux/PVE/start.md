@@ -41,6 +41,6 @@ lvremove pve/data
 lvextend -l +100%FREE -r pve/root
 ```
 在这里将local-lvm删除
-![[./Pasted image 20230202165942.png]]
+![](202302021757.png)
 然后编辑local分区,内容全选
-![[./Pasted image 20230202170047.png]]
+![](20230202175802.png)
