@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 显卡直通
+title: ubuntu显卡直通
 # 这是页面的图标
 icon: page
 ---
@@ -49,4 +49,32 @@ reboot
 根据ID修改下面的命令
 ```
 echo "options vfio-pci ids=8086:3185,8086:3198" > /etc/modprobe.d/vfio.conf
+```
+#### 创建虚拟机
+![[Pasted image 20230202173856.png]]
+#### 修改配置文件
+修改`/etc/pve/nodes/bestrui/qemu-server/100.conf`将100改为VM ID
+我的配置文件，主要是第一行和第二行
+```
+args: -device vfio-pci,host=00:02.0,addr=0x02,x-igd-gms=1
+vga: none
+boot: order=scsi0
+cores: 4
+cpu: host
+hostpci0: 0000:00:0e.0
+ide2: local:iso/ubuntu-20.04.4-desktop-amd64.iso,media=cdrom,size=3299872K
+machine: q35
+memory: 4096
+meta: creation-qemu=6.2.0,ctime=1675316539
+name: Ubuntu
+net0: virtio=AE:32:D1:CA:0C:7F,bridge=vmbr0,firewall=1
+numa: 1
+ostype: l26
+scsi0: local:100/vm-100-disk-0.qcow2,size=32G
+scsihw: virtio-scsi-pci
+smbios1: uuid=46ee4016-cf84-4b0a-a256-9704c69fdf73
+sockets: 1
+usb0: host=1-1.3,usb3=1
+usb1: host=1-1.2,usb3=1
+vmgenid: 3dbb9f0f-4c44-4509-a436-b41c92e15b16
 ```
