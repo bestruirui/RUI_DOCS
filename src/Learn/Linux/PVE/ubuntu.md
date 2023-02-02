@@ -44,7 +44,7 @@ reboot
 ```
 #### 绑定核显到vfio模块
 查看核显以及声卡的ID：
-![[./Pasted image 20230202171821.png]]
+![sca](./image20230202171821.png)
 ![[./Pasted image 20230202172010.png]]
 根据ID修改下面的命令
 ```
