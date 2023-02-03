@@ -109,7 +109,17 @@ docker run -d \
    -v /opt/ddns-go:/root \
     jeessy/ddns-go
 ```
-
+## AdGuard
+去广告神器
+```
+docker run --name AdGuard\
+    --restart unless-stopped\
+    --net RUI \
+    --ip 192.168.31.11 \
+    -v /docker/adguard/workdir:/opt/adguardhome/work \
+    -v /docker/adguard/confdir:/opt/adguardhome/conf \
+    -d adguard/adguardhome
+```
 
 
 
