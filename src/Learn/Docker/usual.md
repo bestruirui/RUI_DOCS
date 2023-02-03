@@ -78,12 +78,12 @@ docker run -it --name code-server -p 5566:8080 \
 ## V2raya
 带有webui的V2ray管理程序，可作为透明网关
 ```docker
-docker run -d \
-  --restart=always \
-  --privileged \
-  --network=OP \
+docker run -d  \
+  --restart=always  \
+  --privileged  \
+  --network=RUI  \
   --name v2raya \
-  --ip 192.168.31.23 \
+  --ip 192.168.31.10 \
   -e V2RAYA_ADDRESS=0.0.0.0:4022 \
    -v /docer/v2raya:/etc/v2raya \
   mzz2017/v2raya
