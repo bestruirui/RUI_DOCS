@@ -44,10 +44,12 @@ docker build -t name:tag .
 - #### macvlan网络
 ```docker
 docker network create -d \
-       macvlan -o parent=eth1 RUI \
+       macvlan -o \
+        parent=eth0 \
+        RUI \
        --subnet=192.168.31.0/24  \
        --gateway=192.168.31.1 \
-       --ipv6 --subnet=2409:8a04:6612:cf40::/64
+       --ipv6 --subnet=fe80::/8
 ```
 ## 清理日志
 ```shell
