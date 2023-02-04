@@ -42,6 +42,17 @@ docker run -dit \
     --restart unless-stopped \
     whyour/qinglong:latest
 ```
+## 青龙tool
+变量提交工具
+```docker
+docker run \
+   --restart=always \
+   -itd --name QLTools \
+   -v /docker/usb/qltool/config:/QLTools/config \
+   -v /docker/usb/qltool/plugin:/QLTools/plugin \
+   -p 15000:15000 \
+    nuanxinqing123/qltools:latest
+```
 ## Alist
 网盘目录列表程序
 ```docker
