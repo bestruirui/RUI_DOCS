@@ -86,6 +86,18 @@ docker run -it --name code-server -p 5566:8080 \
        --restart=always \
       registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
 ```
+## 网心云
+```docker
+docker run -d \
+    --name=wxedge \
+    --restart=always \
+    --privileged \
+    --net=host \
+    --tmpfs /run \
+    --tmpfs /tmp \
+    -v /sata/wxedge:/storage:rw    \ 
+    registry.hub.docker.com/onething1/wxedge
+```
 ## V2raya
 带有webui的V2ray管理程序，可作为透明网关
 ```docker
