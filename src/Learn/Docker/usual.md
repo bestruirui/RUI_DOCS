@@ -3,19 +3,19 @@ title: 常用的容器
 icon: box-archive
 ---
 ## Portainer
-Docker可视化管理
-```Dockcer
+Docker可视化管理(汉化版)
+```dockcer
 docker run -d \
---restart=always \
---name="portainer" \
--p 9001:9000 \
--v /var/run/docker.sock:/var/run/docker.sock \
--v /docker/portainer:/data \
- 6053537/portainer-ce:latest
+   --restart=always \
+   --name="portainer" \
+   -p 9001:9000 \
+   -v /var/run/docker.sock:/var/run/docker.sock \
+   -v /docker/portainer:/data \
+   6053537/portainer-ce:latest
 ```
 ## Aria2-Pro
 更好用的 Aria2 Docker 容器镜像
-```Docker
+```docker
 docker run -d \
     --name aria2ng \
     --restart unless-stopped \
@@ -33,7 +33,7 @@ docker run -d \
 ```
 ## 青龙面板
 定时任务面板
-```Docker
+```docker
 docker run -dit \
     -v /docker/ql:/ql/data \
     -p 5700:5700 \
@@ -58,7 +58,7 @@ docker run \
 ```docker
 docker run -d \
      --restart=always \
-     -v /doetclist:/opt/alist/data \
+     -v /docker/alist:/opt/alist/data \
      -p 5244:5244 \
      --name="alist" \
      xhofe/alist:latest
@@ -87,6 +87,7 @@ docker run -it --name code-server -p 5566:8080 \
       registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
 ```
 ## 网心云
+搞钱的
 ```docker
 docker run -d \
     --name=wxedge \
@@ -102,14 +103,14 @@ docker run -d \
 带有webui的V2ray管理程序，可作为透明网关
 ```docker
 docker run -d  \
-  --restart=always  \
-  --privileged  \
-  --network=RUI  \
-  --name v2raya \
-  --ip 192.168.31.10 \
-  -e V2RAYA_ADDRESS=0.0.0.0:4022 \
+   --restart=always  \
+   --privileged  \
+   --network=RUI  \
+   --name v2raya \
+   --ip 192.168.31.10 \
+   -e V2RAYA_ADDRESS=0.0.0.0:4022 \
    -v /docer/v2raya:/etc/v2raya \
-  mzz2017/v2raya
+   mzz2017/v2raya
 ```
 ## rclone
 webui版
@@ -133,7 +134,7 @@ docker run -d \
     jeessy/ddns-go
 ```
 ## AdGuard
-去广告神器
+去广告
 ```
 docker run --name AdGuard\
     --restart unless-stopped\
