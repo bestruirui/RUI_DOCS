@@ -8,3 +8,9 @@ icon: square-terminal
 ```bash
 watch grep \'cpu MHz\' /proc/cpuinfo
 ```
+## 解压缩
+```bash
+tar -zxvf test.tar.gz         #解压
+
+tar -zcvf test.tar.gz ./test/ #压缩
+```
