@@ -38,11 +38,13 @@ jobs:
         with:
           node-version: 18
           cache: npm
+       
 
       - name: 构建页面
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
+          npm i @vercel/analytics 
           npm run build
           > src/.vuepress/dist/.nojekyll
   
