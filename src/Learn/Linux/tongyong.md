@@ -10,7 +10,17 @@ watch grep \'cpu MHz\' /proc/cpuinfo
 ```
 ## 解压缩
 ```bash
-tar -zxvf test.tar.gz         #解压
+ #解压
+tar -zxvf test.tar.gz        
+#压缩
+tar -zcvf test.tar.gz ./test/ 
+```
+## 清理日志
+```shell
+#只保留两天的，其余全部删除
+journalctl --vacuum-time=2d  
 
-tar -zcvf test.tar.gz ./test/ #压缩
+#删除bash历史
+rm -rf ~/.bash_history
+history -c
 ```
