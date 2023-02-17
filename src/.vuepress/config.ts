@@ -2,6 +2,9 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
+import { inject } from '@vercel/analytics';
+
+inject();
 
 export default defineUserConfig({
   base: "/",
