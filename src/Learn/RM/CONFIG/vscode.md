@@ -34,10 +34,10 @@ OpenOCD可以在这里[下载](https://download.bestrui.top/%E8%BD%AF%E4%BB%B6/w
 配置`包含路径`
 ![](20230217174656.png)
 ```
-//instdint.h报错
+//引用instdint.h报错
 D:\APP\keil\core\ARM\ARMCLANG\include\
 
-//头文件报错
+//yin'yong头文件报错
 ${workspaceFolder}/**
 ${workspaceFolder}/Core/Inc/
 ${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/
