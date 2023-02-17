@@ -15,7 +15,7 @@ export default defineUserConfig({
         ['script', {type: "text/javascript", src: '/baidu.js' ,async:"async"}],
         ['script', {type: "text/javascript", src: '/_vercel/insights/script.js' ,async:"async"}],
         ['meta', {name: "msvalidate.01", content: "76861DC58C528BF36815B521CAC12C86"}],
-        ['meta' ,{itemprop: "image" ,content: "https://docs.bestrui.top/favicon.ico"}]
+        ['meta' ,{itemprop: "image" ,content: "https://docs.bestrui.top/assets/icon/512.png"}]
       ] 
       
     },
