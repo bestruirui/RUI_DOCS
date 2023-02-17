@@ -2,9 +2,6 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
-import { inject } from '@vercel/analytics';
-
-inject();
 
 export default defineUserConfig({
   base: "/",
@@ -14,7 +11,8 @@ export default defineUserConfig({
       title: "RUI",
       description: " ",
       head:[
-        ['script', {type: "text/javascript", src: './baidu.js' ,async:"async"}],
+        ['script', {type: "text/javascript", src: '/baidu.js' ,async:"async"}],
+        ['script', {type: "text/javascript", src: '/_vercel/insights/script.js' ,async:"async"}],
         ['meta', {name: "msvalidate.01", content: "76861DC58C528BF36815B521CAC12C86"}]
       ] 
       
