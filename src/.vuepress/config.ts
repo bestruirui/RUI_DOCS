@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
+import { seoPlugin } from "vuepress-plugin-seo2";
 
 export default defineUserConfig({
   base: "/",
@@ -35,6 +36,10 @@ export default defineUserConfig({
       showInMobile:true,
       selector:'.theme-hope-content div[class*="language-"] pre'
     }),
+    seoPlugin({
+      hostname:'docs.bestrui.top',
+      fallBackImage:'https://docs.bestrui.top/favicon.ico'
+    })
   ],
 });
 
