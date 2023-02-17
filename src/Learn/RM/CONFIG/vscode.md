@@ -17,7 +17,7 @@ icon: code
 ![](./20230217171306.png)
 因为我使用的是`CMSIS-DAP`调试器，所以这里的`OpenOCD`需要配置
 OpenOCD可以在这里[下载](https://download.bestrui.top/%E8%BD%AF%E4%BB%B6/windows/openocd-20230202.7z)
-![](20230217173136.png)
+![](./20230217173136.png)
 ##### 导入工程后的配置：
 - 点击`芯片支持包`选项右边的`＋`选择`From Repo`
 - 直接搜索`stm32`选择开发板的型号
@@ -32,7 +32,7 @@ OpenOCD可以在这里[下载](https://download.bestrui.top/%E8%BD%AF%E4%BB%B6/w
 命令面板搜索`C/C++`选择`编辑配置(UI)`
 ![](./20230217174537.png)
 配置`包含路径`
-![](20230217174656.png)
+![](./20230217174656.png)
 ```
 //引用instdint.h报错
 D:\APP\keil\core\ARM\ARMCLANG\include\
