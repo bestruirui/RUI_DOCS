@@ -9,9 +9,9 @@ icon: page
 ````
 
 ## 修改BIOS
-打开VT-D
-开启CSM
-CSM选项中的项目都选为legacy
+打开VT-D    
+开启CSM    
+CSM选项中的项目都选为legacy    
 ## PVE设置
 #### 启动内核IOMMU支持
 修改` /etc/default/grub`中的`GRUB_CMDLINE_LINUX_DEFAULT`为：
