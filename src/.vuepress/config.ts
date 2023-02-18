@@ -37,7 +37,7 @@ export default defineUserConfig({
       selector: '.theme-hope-content div[class*="language-"] pre'
     }),
     seoPlugin({
-      hostname: 'docs.bestrui.top',
+      hostname: 'https://docs.bestrui.top',
       fallBackImage: 'https://docs.bestrui.top/favicon.ico'
     })
   ],
