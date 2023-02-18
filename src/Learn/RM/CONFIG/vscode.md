@@ -3,7 +3,6 @@
 title: 使用Vscode开发
 # 这是页面的图标
 icon: code
-image: /assets/icon/512.png
 ---
 ````tip
 在开始之前先检查一下`C:\Users`下的用户名不能含有特殊字符，汉语，否则无法正常编译
