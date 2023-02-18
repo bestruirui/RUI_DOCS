@@ -3,7 +3,7 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://docs.bestrui.top",
+  // hostname: "https://docs.bestrui.top",
 
   author: {
     name: "RUI",
