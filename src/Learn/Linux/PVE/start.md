@@ -40,7 +40,7 @@ sed -i 's|http://download.proxmox.com|https://mirrors.tuna.tsinghua.edu.cn/proxm
 lvremove pve/data  
 lvextend -l +100%FREE -r pve/root
 ```
-在这里将local-lvm删除
+在这里将local-lvm删除    
 ![](./202302021757.png)
-然后编辑local分区,内容全选
+然后编辑local分区,内容全选    
 ![](./20230202175802.png)
