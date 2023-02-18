@@ -6,36 +6,43 @@ header.hero {
     bottom: 20%;
     right: 0;
 }
- body {
+
+body {
     background: url(/bg.svg) center/cover no-repeat;
     background-attachment: fixed;
- }
- .theme-hope-content img {
+}
+
+.theme-hope-content img {
     max-width: 100%;
     border-radius: 11px;
 }
+
 .theme-hope-content>div[class*=language-] {
     margin: 0.85rem -0.5rem;
     border-radius: 6px;
 }
+
 .sidebar-sub-headers .sidebar-link {
     padding-top: .25rem;
     display: none;
     padding-bottom: .25rem;
     border-left: none;
 }
+
 .sidebar-link.active {
     border-left-color: #ffffff;
     border-radius: 7px;
     width: 96%;
 }
+
 //顶栏模糊
 .navbar {
-    backdrop-filter: blur( 30px ) !important;
-    
+    backdrop-filter: blur(30px) !important;
+
     background: rgb(255 255 255 / 40%);
-    
+
 }
+
 //Phone顶栏
 #nav-screen {
     position: fixed;
@@ -49,23 +56,26 @@ header.hero {
     padding: 0 2rem;
     background: rgb(250 250 250 / 40%);
     transition: background 0.5s;
-    backdrop-filter: blur( 30px ) !important;
+    backdrop-filter: blur(30px) !important;
 }
-@media (max-width: 719px){
+
+@media (max-width: 719px) {
     #nav-screen {
-    display: block;
-   }
+        display: block;
+    }
 }
 
 //侧栏模糊
 .sidebar {
-    backdrop-filter: blur( 30px ) !important;
-    background: rgb(255 255 255 / 50%);
-    
+    //backdrop-filter: blur( 30px ) !important;
+    background: rgb(255, 255, 255);
+
 }
+
 .sidebar-mask {
-     background: unset !important; 
+    background: unset !important;
 }
+
 //评论模糊
 .wl-panel {
     position: relative;
@@ -74,54 +84,63 @@ header.hero {
     margin: .5em;
     border: var(--waline-border);
     border-radius: .75em;
-     background: unset; 
+    background: unset;
     box-shadow: var(--waline-box-shadow);
-    backdrop-filter: blur( 30px );
+    backdrop-filter: blur(30px);
 }
+
 .wl-cards .wl-item {
     position: relative;
     display: flex;
     padding: .5em;
-    backdrop-filter: blur( 30px );
+    backdrop-filter: blur(30px);
     border-radius: 10px;
 }
+
 //代码块模糊
 div[class*=language-] {
     position: relative;
     border-radius: 6px;
     background: #ecf4fa4f;
     transition: background var(--color-transition);
-    backdrop-filter: blur( 30px );
+    backdrop-filter: blur(30px);
 }
+
 //容器模糊
 .custom-container {
-    backdrop-filter: blur( 30px );
+    backdrop-filter: blur(30px);
     position: relative;
     transition: background var(--color-transition), border-color var(--color-transition), color var(--color-transition);
 }
+
 .custom-container.info {
     border-color: rgb(76 179 212 / 60%);
     background: rgb(238 249 253 / 60%);
 }
+
 .custom-container.note {
     border-color: rgb(212 213 216 / 60%);
     background: rgb(253 253 254 / 60%);
 }
+
 .custom-container.tip {
     border-color: rgb(0 148 0 / 60%);
     background: rgb(230 246 230 / 60%);
 }
+
 .custom-container.warning {
     border-color: rgb(230 167 0 / 60%);
     background: rgb(255 248 230 / 60%);
 }
+
 .custom-container.danger {
     border-color: rgb(225 50 56 / 60%);
     background: rgb(255 235 236 / 60%);
 }
+
 //引用
 blockquote {
     background: rgb(255 255 255 / 40%);
     border-radius: 5px;
-    backdrop-filter: blur( 30px ) !important;
+    backdrop-filter: blur(30px) !important;
 }
