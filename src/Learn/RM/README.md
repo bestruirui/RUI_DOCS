@@ -8,7 +8,7 @@ order: 1
 ## RoboMaster
 <div class="season-video" >
 <div style="display:;" data-v-11dfe76f="">
-<video preload="auto" playsinline="true" x5-playsinline="true" webkit-playsinline="true" name="media" autoplay="autoplay" loop="loop" muted="muted"  src="https://rm-static.djicdn.com/documents/55708/2750dd15c80851662705346135704113.mp4" data-v-11dfe76f="">
+<video preload="auto" playsinline="true" x5-playsinline="true" webkit-playsinline="true" name="media" autoplay="autoplay" loop="loop" muted="muted"  src="https://rm-static.djicdn.com/documents/55708/2750dd15c80851662705346135704113.mp4"  style="width:100%">
 </video>
 </div>
 </div>
