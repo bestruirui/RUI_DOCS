@@ -14,9 +14,10 @@ icon: code
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 ## 2.插件配置
 ### Embedded IDE -- 导入工程，编译，下载
-#### 插件的基础配置，我截图的这几个是需要配置的
+#### 插件的基础配置
+我截图的这几个是需要配置的
 ![](./20230217171306.png)
-因为我使用的是`CMSIS-DAP`调试器，所以这里的`PATH`需要配置    
+我使用的是`CMSIS-DAP`调试器，这里的`PATH`也需要配置一下    
 OpenOCD可以在这里[下载](https://download.bestrui.top/%E8%BD%AF%E4%BB%B6/windows/openocd-20230202.7z)    
 ![](./20230217173136.png)
 #### 导入工程后的配置：
