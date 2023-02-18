@@ -13,27 +13,27 @@ icon: code
 - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 ## 2.插件配置
-#### Embedded IDE -- 导入工程，编译，下载
-##### 插件的基础配置，我截图的这几个是需要配置的
+### Embedded IDE -- 导入工程，编译，下载
+#### 插件的基础配置，我截图的这几个是需要配置的
 ![](./20230217171306.png)
 因为我使用的是`CMSIS-DAP`调试器，所以这里的`PATH`需要配置    
 OpenOCD可以在这里[下载](https://download.bestrui.top/%E8%BD%AF%E4%BB%B6/windows/openocd-20230202.7z)
 ![](./20230217173136.png)
-##### 导入工程后的配置：
+#### 导入工程后的配置：
 - 点击`芯片支持包`选项右边的`＋`选择`From Repo`
 - 直接搜索`stm32`选择开发板的型号
 - 导入完成后接着选择开发板的具体型号
 - `构建配置`根据自己的项目选择
 - `烧录配置`如果你也和我一样使用的是`CMSIS-DAP`调试器，那这里选择`OpenOCD`，子选项根据自己工程配置
-这是我配置成功的截图
+这是我配置成功的截图   
 ![](./20230217171556.png)
-#### Cortex-Debug -- 代码调试
-在家里没有可以用的设备，暂时先不写
-#### C/C++ -- 跳转定义
-命令面板搜索`C/C++`选择`编辑配置(UI)`
+### Cortex-Debug -- 代码调试
+在家里没有可以用的设备，暂时先不写   
+### C/C++ -- 跳转定义
+命令面板搜索`C/C++`选择`编辑配置(UI)`   
 
 ![](./20230217174537.png)
-配置`包含路径`
+配置`包含路径`   
 
 ![](./20230217174656.png)
 ```
@@ -48,6 +48,6 @@ ${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/
 ${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include/
 ${workspaceFolder}/Drivers/CMSIS/Include/
 ```
-#### GitHub Copilot  -- AI
+### GitHub Copilot  -- AI
 学生用户免费    
 [申请学生包](../../Other/Github/student.md)
