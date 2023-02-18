@@ -19,11 +19,13 @@ export default hopeTheme({
   docsBranch:"DOC",
 
   repoDisplay: false,
-
+  //是否在移动视图下隐藏站点名称
   hideSiteNameOnMobile: false,
 
   contributors:false,
   //lastUpdated:false,
+
+  navbarAutoHide:"none",
 
   metaLocales: {
     editLink: "编辑此页",
