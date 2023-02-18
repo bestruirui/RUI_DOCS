@@ -11,6 +11,7 @@ icon: code
 - [Embedded IDE](https://marketplace.visualstudio.com/items?itemName=CL.eide)
 - [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug))
 - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 ## 2.插件配置
 #### Embedded IDE -- 导入工程，编译，下载
 ##### 插件的基础配置，我截图的这几个是需要配置的
@@ -47,3 +48,5 @@ ${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/
 ${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include/
 ${workspaceFolder}/Drivers/CMSIS/Include/
 ```
+#### GitHub Copilot  -- AI
+学生用户免费[student](../../Other/Github/student.md)
