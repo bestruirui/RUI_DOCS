@@ -10,22 +10,22 @@ export default hopeTheme({
     url: "http://bestrui.top",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_3837767_zn33uieg45.css" ,
+  iconAssets: "//at.alicdn.com/t/c/font_3837767_wkig8utebip.css",
 
   repo: "bestruirui/RUI_DOCS",
 
   docsDir: "/src",
 
-  docsBranch:"DOC",
+  docsBranch: "DOC",
 
   repoDisplay: false,
   //是否在移动视图下隐藏站点名称
   hideSiteNameOnMobile: false,
 
-  contributors:false,
+  contributors: false,
   //lastUpdated:false,
 
-  navbarAutoHide:"none",
+  navbarAutoHide: "none",
 
   metaLocales: {
     editLink: "编辑此页",
@@ -34,7 +34,7 @@ export default hopeTheme({
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
-  sidebarSorter:["readme"],
+  sidebarSorter: ["readme"],
 
   toc: true,
 
@@ -90,8 +90,8 @@ export default hopeTheme({
        */
       provider: "Waline",
       serverURL: "https://waline.bestrui.top",
-      meta:['nick', 'mail'],
-      requiredMeta:['nick', 'mail'],
+      meta: ['nick', 'mail'],
+      requiredMeta: ['nick', 'mail'],
       //reaction:true,
     },
 
@@ -146,7 +146,7 @@ export default hopeTheme({
       cachePic: true,
       appendBase: true,
       showInstall: true,
-      maxSize:6048,
+      maxSize: 6048,
       themeColor: "#ffffff",
       apple: {
         icon: "/assets/icon/152.png",
