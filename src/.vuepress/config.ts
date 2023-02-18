@@ -11,35 +11,35 @@ export default defineUserConfig({
       lang: "zh-CN",
       title: "RUI",
       description: " ",
-      head:[
-        ['script', {type: "text/javascript", src: '/baidu.js' ,async:"async"}],
-        ['script', {type: "text/javascript", src: '/_vercel/insights/script.js' ,async:"async"}],
-        ['meta', {name: "msvalidate.01", content: "76861DC58C528BF36815B521CAC12C86"}],
-        ['meta' ,{itemprop: "image" ,content: "https://docs.bestrui.top/assets/icon/512.png"}]
-      ] 
-      
+      head: [
+        ['script', { type: "text/javascript", src: '/baidu.js', async: "async" }],
+        ['script', { type: "text/javascript", src: '/_vercel/insights/script.js', async: "async" }],
+        ['meta', { name: "msvalidate.01", content: "76861DC58C528BF36815B521CAC12C86" }],
+        ['meta', { itemprop: "image", content: "https://docs.bestrui.top/assets/icon/512.png" }]
+      ]
+
     },
   },
 
   theme,
 
   shouldPrefetch: false,
-  
+
 
 
   plugins: [
     searchProPlugin({
-      indexContent:true,
+      indexContent: true,
     }),
-    
+
     copyCodePlugin({
-      showInMobile:true,
-      selector:'.theme-hope-content div[class*="language-"] pre'
+      showInMobile: true,
+      selector: '.theme-hope-content div[class*="language-"] pre'
     }),
-    seoPlugin({
-      hostname:'docs.bestrui.top',
-      fallBackImage:'https://docs.bestrui.top/favicon.ico'
-    })
+    // seoPlugin({
+    //   hostname:'docs.bestrui.top',
+    //   fallBackImage:'https://docs.bestrui.top/favicon.ico'
+    // })
   ],
 });
 
