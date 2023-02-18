@@ -3,6 +3,7 @@ title: RM
 icon: robot
 index: false
 order: 1
+banner: https://rm-static.djicdn.com/tem/55708/4a3f2994a02aa1669740209731647635.jpeg
 ---
 
 ## RoboMaster
