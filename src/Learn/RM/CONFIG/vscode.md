@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 使用Vscode开发stm32
+title: 使用VS Code开发stm32
 # 这是页面的图标
 icon: code
 ---
