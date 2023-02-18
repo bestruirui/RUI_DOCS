@@ -9,15 +9,14 @@ icon: code
 ````
 ## 1.安装插件
 - [Embedded IDE](https://marketplace.visualstudio.com/items?itemName=CL.eide)
-- [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug))
+- [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
 - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 ## 2.插件配置
 #### Embedded IDE -- 导入工程，编译，下载
 ##### 插件的基础配置，我截图的这几个是需要配置的
 ![](./20230217171306.png)
-因为我使用的是`CMSIS-DAP`调试器，所以这里的`PATH`需要配置  
-
+因为我使用的是`CMSIS-DAP`调试器，所以这里的`PATH`需要配置    
 OpenOCD可以在这里[下载](https://download.bestrui.top/%E8%BD%AF%E4%BB%B6/windows/openocd-20230202.7z)
 ![](./20230217173136.png)
 ##### 导入工程后的配置：
@@ -50,5 +49,5 @@ ${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include/
 ${workspaceFolder}/Drivers/CMSIS/Include/
 ```
 #### GitHub Copilot  -- AI
-学生用户免费
+学生用户免费    
 [申请学生包](../../Other/Github/student.md)
