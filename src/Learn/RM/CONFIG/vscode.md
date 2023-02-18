@@ -5,7 +5,7 @@ title: 使用Vscode开发
 icon: code
 ---
 ````tip
-在开始之前先检查一下`C:\Users`下的用户名是否含有特殊字符，是否是汉语，否则无法正常使用
+在开始之前先检查一下`C:\Users`下的用户名不能含有特殊字符，汉语，否则无法正常编译
 ````
 ## 1.安装插件
 - [Embedded IDE](https://marketplace.visualstudio.com/items?itemName=CL.eide)
