@@ -15,12 +15,12 @@ CSM选项中的项目都选为legacy
 ## PVE设置
 #### 启动内核IOMMU支持
 修改` /etc/default/grub`中的`GRUB_CMDLINE_LINUX_DEFAULT`为：
-```
+```config
 GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on i915.enable_gvt=1 iommu=pt video=efifb:off video=vesafb:off"
 ```
 #### 加载硬件直通相关模块
 修改`/etc/modules`，添加以下内容
-```
+```config
 vfio
 vfio_iommu_type1
 vfio_pci
@@ -28,7 +28,7 @@ vfio_virqfd
 kvmgt
 ```
 修改`/etc/modprobe.d/pve-blacklist.conf`，添加以下内容
-```
+```config
 blacklist snd_hda_intel
 blacklist snd_hda_codec_hdmi
 blacklist snd_hda_codec
@@ -37,7 +37,7 @@ blacklist i915
 ```
 #### 更新配置信息
 执行以下命令
-```
+```shell
 update-grub
 update-initramfs -u -k all
 reboot
@@ -47,7 +47,7 @@ reboot
 ![](./202302021755.png)
 ![](./202302021756.png)
 根据ID修改下面的命令
-```
+```shell
 echo "options vfio-pci ids=8086:3185,8086:3198" > /etc/modprobe.d/vfio.conf
 ```
 #### 创建虚拟机
@@ -55,7 +55,7 @@ echo "options vfio-pci ids=8086:3185,8086:3198" > /etc/modprobe.d/vfio.conf
 #### 修改配置文件
 修改`/etc/pve/nodes/bestrui/qemu-server/100.conf`将100改为VM ID
 我的配置文件，主要是第一行和第二行
-```
+```config
 args: -device vfio-pci,host=00:02.0,addr=0x02,x-igd-gms=1
 vga: none
 boot: order=scsi0

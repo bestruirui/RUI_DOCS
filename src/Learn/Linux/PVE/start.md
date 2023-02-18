@@ -14,7 +14,7 @@ order: 2
 将系统默认的源换为清华源
 #### apt软件源
 将`/etc/apt/sources.list`内容替换为
-```
+```config
 deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
 deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
@@ -26,17 +26,17 @@ deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main 
 ```
 #### PVE软件源
 将`/etc/apt/sources.list.d/pve-enterprise.list`替换为
-```
+```config
 deb https://mirrors.tuna.tsinghua.edu.cn/proxmox/debian bullseye pve-no-subscription
 ```
 #### lxc软件源
 执行下面这句指令
-```bash
+```shell
 sed -i 's|http://download.proxmox.com|https://mirrors.tuna.tsinghua.edu.cn/proxmox|g' /usr/share/perl5/PVE/APLInfo.pm
 ```
 ## 删除 local-lvm 分区
 避免空间浪费，而且 PVE 首页上显示的空间剩余指的是 local 分区，推荐新装 PVE 时进行设置
-```
+```shell
 lvremove pve/data  
 lvextend -l +100%FREE -r pve/root
 ```
