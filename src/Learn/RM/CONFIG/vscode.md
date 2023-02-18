@@ -52,4 +52,4 @@ ${workspaceFolder}/Drivers/CMSIS/Include/
 ### GitHub Copilot  -- AI补全
 **GitHub Copilot**是GitHub和OpenAI合作开发的一个人工智能工具，可以通过GitHub Copilot自动补全代码    
 正式版定价10美元/月，但是学生免费✌️    
-[申请学生包](../../Other/Github/student.md)
+关于申请Github的学生包可以参考[这里](../../Other/Github/student.md)
