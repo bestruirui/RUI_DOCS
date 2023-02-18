@@ -36,10 +36,14 @@ export default defineUserConfig({
       showInMobile: true,
       selector: '.theme-hope-content div[class*="language-"] pre'
     }),
-    // seoPlugin({
-    //   hostname: 'https://docs.bestrui.top',
-    //   fallBackImage: 'https://docs.bestrui.top/favicon.ico'
-    // })
+    seoPlugin({
+      hostname: 'https://docs.bestrui.top',
+      fallBackImage: 'https://docs.bestrui.top/favicon.ico',
+      ogp(ogp, page, app) {
+        ogp['og:image'] = 'https://docs.bestrui.top/assets/icon/cool.svg';
+        return ogp;
+      },
+    }),
   ],
 });
 
