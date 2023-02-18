@@ -49,5 +49,5 @@ ${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include/
 ${workspaceFolder}/Drivers/CMSIS/Include/
 ```
 ### GitHub Copilot  -- AI
-学生用户免费    
+学生用户免费
 [申请学生包](../../Other/Github/student.md)
