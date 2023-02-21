@@ -145,7 +145,15 @@ docker run --name AdGuard\
     -d adguard/adguardhome
 ```
 
-
+## Dozzle
+docker容器日志查看工具
+```docker
+docker run -d \
+	--name dozzle \
+	-p 8888:8080 \
+	--volume=/var/run/docker.sock:/var/run/docker.sock \
+	amir20/dozzle:latest
+```
 
 
 
