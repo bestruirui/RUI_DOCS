@@ -1,5 +1,5 @@
 ---
-title: shell脚本
+title: Shell
 icon: square-terminal
 index: false
 ---
