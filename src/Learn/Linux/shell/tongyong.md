@@ -2,7 +2,7 @@
 # 这是文章的标题
 title: 通用命令
 # 这是页面的图标
-icon: square-terminal
+icon: page
 ---
 ## 查看CPU频率
 ```bash
