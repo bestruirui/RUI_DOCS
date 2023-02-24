@@ -8,4 +8,4 @@ index: false
 - # [ Linux ](Linux/README.md)
 - # [ Docker ](Docker/README.md)
 - # [ WEB ](WEB/README.md)
-- # [ OTHER](Other/README.md)
+- # [ OTHER ](Other/README.md)

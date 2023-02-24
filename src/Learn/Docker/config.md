@@ -1,5 +1,5 @@
 ---
-title: 常用的命令
+title: 常用命令
 icon: square-terminal
 toc: true
 ---

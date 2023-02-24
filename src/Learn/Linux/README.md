@@ -21,6 +21,7 @@ order: -1
 ##  目录
 
 
-- [openwrt ](openwrt/README.md)
-
-- [Alpine ](Alpine/README.md)
+- [ openwrt ](openwrt/README.md)
+- [ Alpine ](Alpine/README.md)
+- [ PVE ](PVE/README.md)
+- [ Shell ](shell/README.md)

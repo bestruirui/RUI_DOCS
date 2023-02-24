@@ -5,3 +5,5 @@ index: false
 ---
 
 ## 常用软件
+- [ NGINX ](nginx/README.md)
+- [ WINDOWS ](Windows/README.md)
