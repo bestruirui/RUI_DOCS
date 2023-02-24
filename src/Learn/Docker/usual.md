@@ -154,7 +154,16 @@ docker run -d \
 	--volume=/var/run/docker.sock:/var/run/docker.sock \
 	amir20/dozzle:latest
 ```
-
+## go-cqhttp
+QQ机器人
+```docker
+docker run \
+  -v /docker/cqhttp:/data \
+  -p 2333:8080 \
+  -it \
+  --name cqhttp \
+  ghcr.bestrui.top/mrs4s/go-cqhttp:master
+```
 
 
 
