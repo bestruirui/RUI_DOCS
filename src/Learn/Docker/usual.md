@@ -75,13 +75,13 @@ docker run -it --name code-server -p 5566:8080 \
 搞钱的
 ```docker
   docker run -d \
-      -v /ttnode:/mnt/data/ttnode \
+      -v /sata/ttnode0:/mnt/data/ttnode \
       -v /var/run/docker.sock:/var/run/docker.sock \
       -v /proc:/host/proc:ro \
-      --name ttnode \
+      --name ttnode0 \
       --hostname ttnode \
       --privileged \
-      --net=host \
+      --net=RUI \
       --dns=111.11.1.1 \
        --restart=always \
       registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
