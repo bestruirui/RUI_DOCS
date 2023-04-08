@@ -83,6 +83,7 @@ docker run -it --name code-server -p 5566:8080 \
       --privileged \
       --net=RUI \
       --dns=111.11.1.1 \
+      --ip=192.168.31.15 \
        --restart=always \
       registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest
 ```
