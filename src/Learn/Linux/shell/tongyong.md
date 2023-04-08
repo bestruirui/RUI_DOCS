@@ -8,6 +8,10 @@ icon: page
 ```bash
 watch grep \'cpu MHz\' /proc/cpuinfo
 ```
+## 查看CPU温度
+```bash
+cat /sys/class/hwmon/hwmon*/temp*input
+```
 ## 解压缩
 ```bash
  #解压
