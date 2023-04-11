@@ -11,6 +11,6 @@ icon: code
 `>>`(向右位移) 针对二进制，转换成二进制后(32位)向右移动n位,相当于这个整数除以2的n次方,正数高位补0, 正数高位补1；      
 ```c
 MOTOR->DATA.Angle_Infinite = (int32_t) (8192 * MOTOR->DATA.Laps + MOTOR->DATA.Angle_now);
-上述代码可优化为
+//上述代码可优化为
 MOTOR->DATA.Angle_Infinite = (int32_t) (MOTOR->DATA.Laps << 13  + MOTOR->DATA.Angle_now);
 ```
