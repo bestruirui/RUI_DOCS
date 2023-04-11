@@ -12,5 +12,5 @@ icon: code
 ```c
 MOTOR->DATA.Angle_Infinite = (int32_t) (8192 * MOTOR->DATA.Laps + MOTOR->DATA.Angle_now);
 //上述代码可优化为
-MOTOR->DATA.Angle_Infinite = (int32_t) (MOTOR->DATA.Laps << 13  + MOTOR->DATA.Angle_now);
+MOTOR->DATA.Angle_Infinite = (int32_t) ((MOTOR->DATA.Laps << 13)  + MOTOR->DATA.Angle_now);
 ```
