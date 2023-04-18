@@ -49,6 +49,31 @@ ${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/
 ${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include/
 ${workspaceFolder}/Drivers/CMSIS/Include/
 ```
+`c_cpp_properties.json`文件需要定义一些宏定义避免出现错误波形
+```
+{
+
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Core/Inc/"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32F427xx",
+                "RUI_DF_DEVELOPMENT",
+                "__CC_ARM"
+            ]
+        }
+    ],
+    "version": 4
+}
+```
 ### GitHub Copilot  -- AI补全
 **Copilot**是GitHub和OpenAI合作开发的一个人工智能工具，可以通过GitHub Copilot自动补全代码     
 正式版定价10美元/月，但是学生免费✌️     
