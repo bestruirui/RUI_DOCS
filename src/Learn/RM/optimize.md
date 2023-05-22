@@ -44,3 +44,23 @@ float RUI_F_MATH_INV_SQRT_float(float DATA)
     return DATA;
 }
 ```
+### 查表法
+```c
+uint8_t RUI_F_MOD(void)
+{
+    uint8_t RUI_V_MOD[3][3]={
+        {RUI_DF_MOD_HEAD_ARM,RUI_DF_MOD_HEAD_CUP,RUI_DF_MOD_HEAD_CUP_SHUT},
+        {RUI_DF_MOD_BOTTOM_MOVE,RUI_DF_MOD_BOTTOM_UP,RUI_DF_MOD_BOTTOM_DOWN},
+        {0,0,RUI_DF_MOD_KEYBOARD}
+    };
+
+    static uint8_t RUI_V_DBUS_R = 0 , RUI_V_DBUS_L = 0;
+    uint8_t RUI_L_DBUS_TABLE[3] ={ 0, 2, 1 };
+    uint8_t RUI_R_DBUS_TABLE[3] ={ 0, 2, 1 };
+
+    RUI_V_DBUS_L = RUI_L_DBUS_TABLE[RUI_V_DBUS.Remote.S2_u8 - 1];
+    RUI_V_DBUS_R = RUI_R_DBUS_TABLE[RUI_V_DBUS.Remote.S1_u8 - 1];
+
+    return  RUI_V_MOD[RUI_V_DBUS_L][RUI_V_DBUS_R];
+}
+```
