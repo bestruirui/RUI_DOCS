@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "http://bestrui.top",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_3837767_ysulxkgjwq.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3837767_lokqo8gzia.css",
 
   repo: "bestruirui/RUI_DOCS",
 

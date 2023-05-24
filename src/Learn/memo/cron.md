@@ -1,10 +1,10 @@
 ---
 # 这是文章的标题
-title: Cron 备忘清
+title: Cron
 # 这是页面的图标
-icon: page
+icon: timer
 ---
-[Cron](https://en.wikipedia.org/wiki/Cron) 最适合安排重复性任务。 可以使用关联的 at 实用程序来完成一次性任务的调度。
+**Cron**最适合安排重复性任务。 可以使用关联的 at 实用程序来完成一次性任务的调度。
 
 Crontab 格式
 ------
@@ -100,10 +100,3 @@ echo "@reboot echo hi" \| crontab
 `井号 (#)` | 仅允许用于 `星期几` 字段，后面必须在 1 到 5 的范围内。例如，`4#1` 表示给定月份的“第一个星期四”。
 `问号(?)`  | 可以代替“*”并允许用于月份和星期几。使用仅限于 cron 表达式中的 `月份中的某天` 或 `星期几`。
 <!--rehype:className=show-header auto-wrap-->
-
-另见
-----
-
-- [Devhints](https://devhints.io/cron) _(devhints.io)_
-- [Crontab Generator](https://crontab-generator.org/) _(crontab-generator.org)_
-- [Crontab guru](https://crontab.guru/) _(crontab.guru)_
