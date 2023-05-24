@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: Cron 备忘清单
+title: Cron 备忘清
 # 这是页面的图标
 icon: page
 ---
