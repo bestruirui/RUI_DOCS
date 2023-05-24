@@ -3,19 +3,19 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
 
 
-  "/": 
-  [
-    {
-      text: "RUI",
-      link: "/README.md",
-      icon: "house",
-    },
-    {
-      text: "学习",
-      icon: "book",
-      collapsible: true,
-      prefix: "Learn/",
-      children: [
+  "/":
+    [
+      {
+        text: "RUI",
+        link: "/README.md",
+        icon: "house",
+      },
+      {
+        text: "学习",
+        icon: "book",
+        collapsible: true,
+        prefix: "Learn/",
+        children: [
           {
             icon: "robot",
             text: "RM",
@@ -52,6 +52,13 @@ export const zhSidebar = sidebar({
             children: "structure",
           },
           {
+            icon: "memo",
+            text: "备忘",
+            prefix: "memo/",
+            collapsible: true,
+            children: "structure",
+          },
+          {
             icon: "ellipsis",
             text: "其他",
             prefix: "Other/",
@@ -59,18 +66,18 @@ export const zhSidebar = sidebar({
             children: "structure",
           },
         ],
-    },
-    {
-      text: "生活",
-      icon: "ice-cream",
-      prefix: "Life/",
-      collapsible: true,
-      children: "structure",
-    }
-  ],
+      },
+      {
+        text: "生活",
+        icon: "ice-cream",
+        prefix: "Life/",
+        collapsible: true,
+        children: "structure",
+      }
+    ],
 
   "/Life/": "structure",
-  "/img/":"structure",
+  "/img/": "structure",
 
   "/Learn/": [
     "",
@@ -117,7 +124,7 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
   ],
-  
+
   // "/Life/": [
   //   "",
   //   {
@@ -127,20 +134,20 @@ export const zhSidebar = sidebar({
   //     collapsible: true,
   //     children: "structure",
   //   },
-    // {
-    //   icon: "discover",
-    //   text: "Linux",
-    //   prefix: "Learn/Linux/",
-    //   collapsible: true,
-    //   children: "structure",
-    // },
-    // {
-    //   icon: "discover",
-    //   text: "Docker",
-    //   prefix: "Learn/Docker/",
-    //   collapsible: true,
-    //   children: "structure",
-    // },
-    // "slides",
- // ],
+  // {
+  //   icon: "discover",
+  //   text: "Linux",
+  //   prefix: "Learn/Linux/",
+  //   collapsible: true,
+  //   children: "structure",
+  // },
+  // {
+  //   icon: "discover",
+  //   text: "Docker",
+  //   prefix: "Learn/Docker/",
+  //   collapsible: true,
+  //   children: "structure",
+  // },
+  // "slides",
+  // ],
 });

@@ -1,5 +1,5 @@
 ---
 title: Memos
-icon: Memo
+icon: memo
 index: false
 ---
