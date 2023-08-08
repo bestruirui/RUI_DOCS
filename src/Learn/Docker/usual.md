@@ -165,7 +165,16 @@ docker run \
   --name cqhttp \
   ghcr.bestrui.top/mrs4s/go-cqhttp:master
 ```
-
+## NPM
+nginx反代管理
+```
+docker run -d \
+   --name NGINX \
+   --net host \
+   -v /nginx/data:/data \
+   -v /nginx/letsencrypt:/letsencrypt  \
+   jc21/nginx-proxy-manager:latest
+```
 
 
 
