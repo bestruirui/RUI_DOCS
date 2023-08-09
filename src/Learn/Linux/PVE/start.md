@@ -111,7 +111,6 @@ After=syslog.target
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-EnvironmentFile=/etc/default/cpupower
 ExecStart=/usr/bin/cpupower -c all frequency-set -g powersave
 ExecStop=/usr/bin/cpupower -c all frequency-set -g performance
 
