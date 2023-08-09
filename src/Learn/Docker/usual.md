@@ -131,7 +131,7 @@ docker run -d \
    --name ddns-go \
    --restart=always \
    --net=host \
-   -v /opt/ddns-go:/root \
+   -v /docker/ddns-go:/root \
     jeessy/ddns-go
 ```
 ## AdGuard
@@ -175,7 +175,14 @@ docker run -d \
    -v /nginx/letsencrypt:/letsencrypt  \
    jc21/nginx-proxy-manager:latest
 ```
-
+## home-assistant
+```
+docker run -d \
+   --name="home-assistants" \
+   -v /docker/home:/config \
+   -p 8123:8123 \
+   homeassistant/home-assistant
+```
 
 
 
