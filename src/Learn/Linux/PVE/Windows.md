@@ -4,8 +4,13 @@ title: Windows核显直通
 # 这是页面的图标
 icon: page
 ---
-配置文件备份
-```
+## 12代核显直通配置文件备份
+> CPU:12100 
+> PVE:8.0.3
+> 内核Linux 6.2.16-3-pve #1 SMP PREEMPT_DYNAMIC PVE 6.2.16-3 (2023-06-17T05:58Z)    
+
+有图像但没有声音
+```config
 args: -set device.hostpci0.addr=02.0 -set device.hostpci0.x-igd-gms=1 -set device.hostpci0.x-igd-opregion=on
 bios: ovmf
 boot: order=scsi0;ide2;net0;ide0
@@ -32,5 +37,4 @@ usb0: host=1-4.1,usb3=1
 usb1: host=1-4.4,usb3=1
 vga: none
 vmgenid: 65b1a594-cd04-441b-b39d-c766a2bfa5d0
-
 ```
