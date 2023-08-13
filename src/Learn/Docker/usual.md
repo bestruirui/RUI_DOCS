@@ -184,7 +184,15 @@ docker run -d \
    homeassistant/home-assistant
 ```
 
-
+## Firefox
+```
+docker run -d \
+    --name=firefox \
+    -p 5800:5800 \
+    -v /docker/firefox:/config:rw \
+    -e ENABLE_CJK_FONT=1 \
+    jlesage/firefox
+```
 
 
 
