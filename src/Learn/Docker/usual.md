@@ -204,6 +204,15 @@ docker run    -d \
       -p 8080:80   \
       filebrowser/filebrowser
 ```
-
+## Samba
+```
+docker run -it \
+      --name samba \
+      -p 139:139 
+      -p 445:445     
+      -v /docker:/mount  \
+      -d dperson/samba -p \
+      -s "bestrui;/mount/;yes;no;yes;all;all;all" 
+```
 
 
