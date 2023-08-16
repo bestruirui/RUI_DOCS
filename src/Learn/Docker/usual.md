@@ -193,8 +193,17 @@ docker run -d \
     -e ENABLE_CJK_FONT=1 \
     jlesage/firefox
 ```
-
-
+## FileBrowser
+```
+docker run    -d \
+      -v /docker:/srv    \
+      -v /docker/filebrowser/filebrowser.db:/database/filebrowser.db   \ 
+      -v /docker/filebrowser/settings.json:/config/settings.json     \
+      -e PUID=$(id -u)    \
+      -e PGID=$(id -g)    \
+      -p 8080:80   \
+      filebrowser/filebrowser
+```
 
 
 
