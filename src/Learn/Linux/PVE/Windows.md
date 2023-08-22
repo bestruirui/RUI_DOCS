@@ -5,12 +5,12 @@ title: Windows核显直通
 icon: page
 ---
 ## 12代核显直通配置文件备份
-> CPU:12100 
-> PVE:8.0.3
-> 内核Linux 6.2.16-3-pve #1 SMP PREEMPT_DYNAMIC PVE 6.2.16-3 (2023-06-17T05:58Z)    
+> CPU:12100         
+> PVE:8.0.3            
+> 内核Linux 6.2.16-3-pve #1 SMP PREEMPT_DYNAMIC PVE 6.2.16-3 (2023-06-17T05:58Z)               
 
-参考文章[N5105 PVE UEFI核显直通WIN虚拟机(不完善) – Hello Zhing！](https://zhing.fun/n5105_igpupt/)
-有图像但没有声音
+参考文章[N5105 PVE UEFI核显直通WIN虚拟机(不完善)](https://zhing.fun/n5105_igpupt/)           
+有图像但没有声音，目前在我的机器上不能通过HDMI输出声音，但可以通过主板上的音频线输出     
 ```config
 args: -set device.hostpci0.addr=02.0 -set device.hostpci0.x-igd-gms=1 -set device.hostpci0.x-igd-opregion=on
 bios: ovmf

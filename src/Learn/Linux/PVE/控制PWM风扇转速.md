@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: PVE控制PWM风扇转速
+title: 控制PWM风扇转速
 # 这是页面的图标
 icon: page
 ---
@@ -28,5 +28,11 @@ echo 1  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2_enable
 ```
 
 ```bash
-echo 1  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2_enable
+#BIOS控制
+echo 5  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2_enable
+```
+## 转速控制
+```bash
+#将RPM替换为0~255区间
+echo RPM  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2
 ```
