@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: hal库时钟配置
+title: HAL库时钟配置
 # 这是页面的图标
 icon: page
 ---

@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: ubuntu显卡直通
+title: Ubuntu显卡直通
 # 这是页面的图标
 icon: page
 ---
