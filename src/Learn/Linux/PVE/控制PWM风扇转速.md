@@ -45,20 +45,22 @@ ls /sys/devices/platform/nct6775.656/hwmon/hwmon5
 | `pwm`       | pwm的值0-255    |
 
 ## 模式切换
-首先先查看当前模式       
 
+````danger
+首先先查看当前模式，我这里的值为`5`，是BIOS在控制风扇转速
+````
+![](20230827110756.png)
 ```bash
 #目录替换为自己的    
 cat /sys/devices/platform/nct6775.656/hwmon/hwmon5/pwm2_enable
 ```    
- 
+改为`1`，我们手动控制
 ```bash
-#手动模式
 echo 1  > /sys/devices/platform/nct6775.656/hwmon/hwmon5/pwm2_enable
 ```
-
+改为`5`，改回BIOS控制
 ```bash
-#BIOS控制
+# 这里的值替换为自己刚才的值
 echo 5  > /sys/devices/platform/nct6775.656/hwmon/hwmon5/pwm2_enable
 ```
 ## 转速控制
