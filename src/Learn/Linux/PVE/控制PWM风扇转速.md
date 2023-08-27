@@ -19,7 +19,7 @@ modprobe -v nct6775
 ls /sys/devices/platform | grep nct6775
 ```
 ![](./20230827105242.png)
-我们看看这个目录里都有啥               
+我们看看这个目录里都有啥                   
 ![](./20230827105449.png)
 ```
  ls /sys/devices/platform/nct6775.656
