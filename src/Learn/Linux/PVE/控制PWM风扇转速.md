@@ -34,5 +34,6 @@ echo 5  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2_enable
 ## 转速控制
 ```bash
 #将RPM替换为0~255区间
+#路径也替换为自己设备的
 echo RPM  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2
 ```
