@@ -15,6 +15,26 @@ echo nct6775 >> /etc/modules
 modprobe -v nct6775
 ```
 安装完以后在`/sys/devices/platform`目录下应该会有`nct6775*`目录
+```
+ls /sys/devices/platform | grep nct6775
+```
+![](20230827105242.png)
+我们看看这个目录里都有啥
+![](20230827105449.png)
+```
+ ls /sys/devices/platform/nct6775.656
+```
+`hwmon`咱们只看这个,别的不管
+> hwmon即hardware monitoring framework，硬件监视框架，包括温度传感器、风扇、电源等器件驱动的框架       
+我们在看看这个目录里都有啥
+![](20230827105732.png)
+```
+ ls /sys/devices/platform/nct6775.656/hwmon
+```
+咱们继续看
+```
+
+```
 ## 模式切换
 首先先查看当前模式       
 目录替换为自己的    
@@ -36,4 +56,8 @@ echo 5  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2_enable
 #将RPM替换为0~255区间
 #路径也替换为自己设备的
 echo RPM  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2
+```
+## 转速查看
+```bash
+cat /sys/devices/platform/nct6775.656/hwmon/hwmon5/fan2_input
 ```
