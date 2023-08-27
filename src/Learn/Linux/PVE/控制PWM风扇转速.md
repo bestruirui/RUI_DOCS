@@ -19,7 +19,7 @@ modprobe -v nct6775
 ls /sys/devices/platform | grep nct6775
 ```
 ![](./20230827105242.png)
-我们看看这个目录里都有啥
+我们看看这个目录里都有啥               
 ![](./20230827105449.png)
 ```
  ls /sys/devices/platform/nct6775.656
@@ -27,17 +27,17 @@ ls /sys/devices/platform | grep nct6775
 `hwmon`咱们只看这个,别的不管        
 > hwmon即hardware monitoring framework，硬件监视框架，包括温度传感器、风扇、电源等器件驱动的框架              
  
-我们在看看这个目录里都有啥
+我们在看看这个目录里都有啥              
 ![](./20230827105732.png)
 ```
  ls /sys/devices/platform/nct6775.656/hwmon
 ```
-咱们继续看
+咱们继续看      
 ```
 ls /sys/devices/platform/nct6775.656/hwmon/hwmon5
 ```
 ![](./20230827105817.png)
-现在就能看到控制风扇相关的文件了
+现在就能看到控制风扇相关的文件了     
 
 | 文件名称     | 作用           | 
 | ---         | ---            | 
