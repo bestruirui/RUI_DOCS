@@ -33,29 +33,39 @@ ls /sys/devices/platform | grep nct6775
 ```
 咱们继续看
 ```
-
+ls /sys/devices/platform/nct6775.656/hwmon/hwmon5
 ```
+![](20230827105817.png)
+现在就能看到控制风扇相关的文件了
+
+| 文件名称     | 作用           | 
+| ---         | ---            | 
+| `fan_input`  | 风扇当前转速    |
+| `pwm_enable` | 是否启用pwm控制 | 
+| `pwm`       | pwm的值0-255    |
+
 ## 模式切换
 首先先查看当前模式       
-目录替换为自己的    
+
 ```bash
-cat /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2_enable
+#目录替换为自己的    
+cat /sys/devices/platform/nct6775.656/hwmon/hwmon5/pwm2_enable
 ```    
  
 ```bash
 #手动模式
-echo 1  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2_enable
+echo 1  > /sys/devices/platform/nct6775.656/hwmon/hwmon5/pwm2_enable
 ```
 
 ```bash
 #BIOS控制
-echo 5  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2_enable
+echo 5  > /sys/devices/platform/nct6775.656/hwmon/hwmon5/pwm2_enable
 ```
 ## 转速控制
 ```bash
 #将RPM替换为0~255区间
 #路径也替换为自己设备的
-echo RPM  > /sys/devices/platform/nct6775.656/hwmon/hwmon2/pwm2
+echo RPM  > /sys/devices/platform/nct6775.656/hwmon/hwmon5/pwm2
 ```
 ## 转速查看
 ```bash
