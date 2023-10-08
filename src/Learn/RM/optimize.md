@@ -3,6 +3,7 @@
 title: 代码优化
 # 这是页面的图标
 icon: code
+order: -1
 ---
 ```tip
 主要是善用位运算
