@@ -216,7 +216,7 @@ FROM wcjiang/docker-static-website:latest
 COPY ./ .
 ```
 
-这会产生一个 **`154KB +`** 的单层镜像。 如果您需要以不同的方式配置 `httpd`，您可以覆盖 CMD 行：
+这会产生一个 **`154KB +`** 的单层镜像。 如果需要以不同的方式配置 `httpd`，可以覆盖 CMD 行：
 
 ```dockerfile
 FROM wcjiang/docker-static-website:latest

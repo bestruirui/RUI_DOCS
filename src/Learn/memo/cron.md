@@ -79,7 +79,7 @@ Min  Hour Day  Mon  Weekday
 | `crontab -e` | 如果不存在，则编辑或创建一个 crontab 文件       |
 | `crontab -l` | 显示 crontab 文件 |
 | `crontab -r` | 删除 crontab 文件 |
-| `crontab -v` | 显示您上次编辑 crontab 文件的时间 _(非标准)_ |
+| `crontab -v` | 显示上次编辑 crontab 文件的时间 _(非标准)_ |
 
 轻松添加任务
 
