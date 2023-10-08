@@ -1,8 +1,7 @@
 ---
-title: RM实验室培训内容
-icon: robot
+title: RM培训
+icon: book
 index: false
-order: 1
 ---
 
 ## RoboMaster
