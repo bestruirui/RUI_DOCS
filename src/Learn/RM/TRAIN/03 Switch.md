@@ -120,5 +120,23 @@ case a+10:   printf("..."); break;   // ❌ 错误，不能包含变量
 ```
 ## 作业
 ```c
-
+#include <stdio.h>
+int main()
+{
+    float a = 0.0 , b = 0.0;
+    char operator = 0;
+    scanf("%f" , &a);
+    scanf("%s" , &operator);
+    scanf("%f" , &b);
+    switch (operator)
+    {
+	    case '+':printf("%f" , a+b);break;
+	    case '-':printf("%f" , a-b);break;
+	    case '*':printf("%f" , a*b);break;
+	    case '/':printf("%f" , a/b);break;
+	    case '%':printf("%d" , (int) a%(int) b);break;
+	    default:printf("请重新输入");
+    }
+    return 0;
+}
 ```
