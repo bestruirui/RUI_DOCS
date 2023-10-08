@@ -71,11 +71,11 @@ int main()
     float x=0 , y=0;
     for (y=2;y>-2;y-=0.05)
     {
-        for (x=-2;x<2;x+=0.02)
+        for (x=-2;x<2;x+=0.04)
         {
             if ((x*x+y*y-1)*(x*x+y*y-1)*(x*x+y*y-1)-x*x*y*y*y < 0)
-                printf("r");
-            else printf(" ");
+                printf("rm");
+            else printf("  ");
         }
         printf("\n");
     }
