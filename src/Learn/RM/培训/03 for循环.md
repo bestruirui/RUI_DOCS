@@ -35,7 +35,6 @@ for (表达式 1; 表达式 2; 表达式 3) {
 int main()
 {
 	int i;
-	
 	for (i = 0; i < 5; i++) {
 	  printf("%d\n", i);
 	}
