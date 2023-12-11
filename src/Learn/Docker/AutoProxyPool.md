@@ -84,7 +84,7 @@ icon: page
     ```
 
     上面写的是一个最简单的配置文件，更多配置参数详见模板文件，可前往官方频道关联群组讨论  
-    若想仅适用于JD脚本，可将 `hostRegex` 的值指定为 `.*\.(jd|isvjd|isvjcloud)\
+    若想仅适用于JD脚本，可将 `hostRegex` 的值指定为 `.*\.(jd|isvjd|isvjcloud)\.com.*`
     ````tip
     > 每次修改完配置需重启容器才能生效  
     > ```bash  
