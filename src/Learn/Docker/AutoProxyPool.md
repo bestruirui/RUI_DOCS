@@ -8,21 +8,17 @@ icon: page
 > 作者：mzzsfy  
 > [auto-proxy-pool](https://t.me/autoProxyPool)
 ```tip
-> 一个用于对接代理池的代理整合工具，可玩性较高  
-> 可通过该工具对接多个代理池，使用时只需连接一个代理地址即可实现自动切换代理池，规则配置丰富
+> 一个用于对接代理池的代理整合工具，可玩性较高       
+> 可通过该工具对接多个代理池，使用时只需连接一个代理地址即可实现自动切换代理池，规则配置丰富     
 ```
 - #### 获取代理池
 
-  > 携趣网络官网：[www.xiequ.cn](https://www.xiequ.cn)  
-  > 自行注册并开通免费代理池业务以获取你的代理池接口地址（如图）  
-  > 免费代理池需要绑定公网IP才可以使用，如果没有那么可通过官方接口动态调整
+  > 携趣网络官网：[www.xiequ.cn](https://www.xiequ.cn)     
+  > 自行注册并开通免费代理池业务以获取你的代理池接口地址         
+  > 免费代理池需要绑定公网IP才可以使用，如果没有那么可通过官方接口动态调整      
 
 
-- #### 部署方法
-
-  <!-- tabs:start -->
-
-  ### **<span class="tab-badge"> **CLI - 命令行****
+- #### 部署
 
   ```bash
   docker run -dit \
@@ -35,26 +31,7 @@ icon: page
   --privileged=true \
   mzzsfy/auto-proxy-pool:latest
   ```
-
-  ### **<span class="tab-badge"> **Compose - 编排****
-
-  ```yaml
-  version: "2.0"
-  services:
-    madrabbit:
-      image: mzzsfy/auto-proxy-pool:latest  # 镜像名
-      container_name: auto-proxy-pool  # 容器名
-      hostname: auto-proxy-pool  # 主机名
-      restart: always  # 开机自启
-      tty: true
-      privileged: true
-      ports:
-        - 8080:8080  # 端口映射，格式为 "主机端口:容器端口"，主机端口号可自定义
-      volumes:
-        - /opt/auto-proxy-pool:/run/data # 配置文件的主机挂载目录
-  ```
-
-  <!-- tabs:end -->
+   
 
   > 注意不可以更改 `:` 右边的内容否则会报错，可更改默认映射端口号以此设置面板访问端口  
   > 若容器启动后不能正常使用请通过 `docker logs -f auto-proxy-pool` 命令查看容器日志
