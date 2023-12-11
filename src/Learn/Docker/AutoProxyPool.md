@@ -6,9 +6,11 @@ icon: page
 ## AutoProxyPool
 
 > 作者：mzzsfy  
-> [auto-proxy-pool](https://t.me/autoProxyPool)
+> telegram [auto-proxy-pool](https://t.me/autoProxyPool)
 ```tip
-一个用于对接代理池的代理整合工具，可玩性较高      可通过该工具对接多个代理池，使用时只需连接一个代理地址即可实现自动切换代理池，规则配置丰富     
+一个用于对接代理池的代理整合工具，可玩性较高         
+可通过该工具对接多个代理池，使用时只需连接一个代理地址即可实现自动切换代理池         
+规则配置丰富     
 ```
 - #### 获取代理池
 
