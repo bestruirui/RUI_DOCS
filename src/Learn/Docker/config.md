@@ -66,3 +66,7 @@ for log in $logs
 
 echo "========清理完成 $(date +%Y-%m-%d\ %H:%M:%S)========" 
 ```
+或者
+```shell
+docker ps -aq | xargs docker inspect --format='{{.LogPath}}' | xargs truncate -s 0
+```
