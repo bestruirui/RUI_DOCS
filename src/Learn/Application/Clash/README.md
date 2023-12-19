@@ -1,6 +1,6 @@
 ---
 title: Clash
-icon: Cat
+icon: cat
 index: false
 ---
 ## Clash
