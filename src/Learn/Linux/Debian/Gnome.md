@@ -32,3 +32,5 @@ sed -i '/auth required pam_succeed_if.so user != root quiet_success/s/^/#/' /etc
 sed -i '/ConditionUser=!root/s/^/#/' /usr/lib/systemd/user/pipewire.socket
 sed -i '/ConditionUser=!root/s/^/#/' /usr/lib/systemd/user/pipewire.service
 ```
+- root免密自动登录桌面后，显示密钥链
+![](./20240220165352.png)

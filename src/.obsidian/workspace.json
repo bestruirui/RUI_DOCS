@@ -15,7 +15,7 @@
               "state": {
                 "file": "Learn/Linux/Debian/Gnome.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             },
             "group": "7b1d5e8469743c3c"
@@ -33,8 +33,8 @@
               "type": "markdown",
               "state": {
                 "file": "Learn/Linux/Debian/Gnome.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               }
             },
             "group": "7b1d5e8469743c3c"
@@ -157,11 +157,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,10 +175,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b583f6e6beb6ea66",
+  "active": "707e59b50e889aae",
   "lastOpenFiles": [
-    "Learn/Linux/Debian/README.md",
+    "Learn/Linux/Debian/20240220165352.png",
     "Learn/Linux/Debian/Gnome.md",
+    "Learn/Linux/Debian/README.md",
+    "Learn/Linux/PVE/控制PWM风扇转速.md",
+    "Learn/Linux/PVE/常用路径.md",
     "未命名.md",
     "Learn/Linux/PVE/ubuntu显卡直通.md",
     "Learn/Linux/PVE/使用前的修改.md",
