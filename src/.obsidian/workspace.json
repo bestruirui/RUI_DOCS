@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "9af6bbc4c7400fa9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6496b2e4c00bbca0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "707e59b50e889aae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learn/Linux/Debian/Gnome.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "7b1d5e8469743c3c"
+          }
+        ]
+      },
+      {
+        "id": "5422fc92e49a97d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cb693f6c500e3da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learn/Linux/Debian/Gnome.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "7b1d5e8469743c3c"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75a0ee9e87eda537",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ff31920fc6ee559",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc8eac93c3d3f4c4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "623842f272f766f3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "838adad55156bfff",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "7e856dbcdf05d3e6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "082612b4004a68b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb45cad032214111",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b583f6e6beb6ea66",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Learn/Linux/Debian/Gnome.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ee45d45deab3f145",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Learn/Linux/Debian/Gnome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8bcde436c666bb48",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4f491959a3786708",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Learn/Linux/Debian/Gnome.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "b583f6e6beb6ea66",
+  "lastOpenFiles": [
+    "Learn/Linux/Debian/README.md",
+    "Learn/Linux/Debian/Gnome.md",
+    "未命名.md",
+    "Learn/Linux/PVE/ubuntu显卡直通.md",
+    "Learn/Linux/PVE/使用前的修改.md",
+    "Learn/Linux/PVE/系统安装.md",
+    "Learn/Linux/PVE/README.md",
+    "Learn/Linux/shell/README.md",
+    "Learn/Linux/README.md",
+    "Learn/Linux/Debian",
+    "Learn/Docker/常用容器.md"
+  ]
+}
