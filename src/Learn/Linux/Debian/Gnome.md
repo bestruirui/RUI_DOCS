@@ -36,8 +36,10 @@ sed -i '/ConditionUser=!root/s/^/#/' /usr/lib/systemd/user/pipewire.service
 ```
 systemctl restart gdm
 ```
-- root免密自动登录桌面后，显示密钥链    
-![](./20240220165352.png)
+- root免密自动登录桌面后，显示密钥链         
+
+![](./20240220165352.png) 
+
 - 不接显示器，使用远程桌面
 ```
 # 安装虚拟显示器
