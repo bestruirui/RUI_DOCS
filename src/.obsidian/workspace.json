@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learn/Linux/Debian/Gnome.md",
+                "file": "Learn/Docker/BaiduYun.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learn/Linux/Debian/Gnome.md",
+                "file": "Learn/Docker/BaiduYun.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learn/Linux/Debian/Gnome.md",
+                "file": "Learn/Docker/BaiduYun.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learn/Linux/Debian/Gnome.md",
+                "file": "Learn/Docker/BaiduYun.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learn/Linux/Debian/Gnome.md"
+                "file": "Learn/Docker/BaiduYun.md"
               }
             }
           }
@@ -177,12 +177,13 @@
   },
   "active": "707e59b50e889aae",
   "lastOpenFiles": [
-    "Learn/Linux/Debian/20240220165352.png",
+    "Learn/Docker/AutoProxyPool.md",
+    "Learn/Docker/BaiduYun.md",
     "Learn/Linux/Debian/Gnome.md",
+    "Learn/Linux/Debian/20240220165352.png",
     "Learn/Linux/Debian/README.md",
     "Learn/Linux/PVE/控制PWM风扇转速.md",
     "Learn/Linux/PVE/常用路径.md",
-    "未命名.md",
     "Learn/Linux/PVE/ubuntu显卡直通.md",
     "Learn/Linux/PVE/使用前的修改.md",
     "Learn/Linux/PVE/系统安装.md",
